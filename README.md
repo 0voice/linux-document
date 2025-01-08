@@ -95,144 +95,6 @@
 ##### []()
 
 
-## 100+ Essential Linux Commands for Every Linux User
-
-
-### Linux Basic Commands
-
-|1       | `ls command`       | [How to List Files and Directories in Linux](https://www.tecmint.com/15-basic-ls-command-examples-in-linux/) – {15 Examples} |
-| ----   | ------------------ | ------------------------------------------------------------ |
-|2       | `pwd command`      | [How to Check Current Working Directory in Linux](https://www.tecmint.com/pwd-command-examples/) – {15 Examples} |
-|3       | `cd command`       | [How to Change Current Working Directory in Linux](https://www.tecmint.com/cd-command-in-linux/) – {15 Examples} |
-|4       | `clear command`    | [How to Clear Terminal Screen in Linux](https://www.tecmint.com/clear-linux-terminal-screen/) – {4 Examples} |
-|5       | `mkdir command`    | [How to Create Directories in Linux](https://www.tecmint.com/mkdir-command-examples/) – {6 Examples} |
-|6       | `mv command`       | [How to Move or Rename Files and Directories in Linux](https://www.tecmint.com/mv-command-linux-examples/) – {9 Examples} |
-|7       | `cp command`       | [How to Copy Files and Directories in Linux](https://www.tecmint.com/cp-command-examples/) – {14 Examples} |
-|8       | `rmdir command`    | [How to Remove Empty Directories in Linux](https://www.tecmint.com/rmdir-command-examples/) – {5 Examples} |
-|9       | `touch command`    | [How to Change or Modify Timestamps of File or Directory](https://www.tecmint.com/8-pratical-examples-of-linux-touch-command/) – {8 Examples} |
-|10      | `cat command`      | [How to Print or View Contents of File in Linux](https://www.tecmint.com/13-basic-cat-command-examples-in-linux/) – {13 Examples} |
-|11      | `echo command`     | [How to Print Line of Text or String in Linux](https://www.tecmint.com/echo-command-in-linux/) – {15 Examples} |
-|12      | `less command`     | [How to Read Contents of Text File in Linux](https://www.tecmint.com/linux-more-command-and-less-command-examples/) – {6 Examples} |
-|13      | `tar command`      | [How to Create and Extract Tar Archive Files in Linux](https://www.tecmint.com/18-tar-command-examples-in-linux/) – {21 Examples} |
-|14      | `gzip command`     | [How to Use the Gzip Command in Linux](https://www.tecmint.com/gzip-command-in-linux/) – {13 Examples} |
-|15      | `grep command`     | [How to Search Text or String in Files on Linux](https://www.tecmint.com/12-practical-examples-of-linux-grep-command/) – {12 Examples} |
-|16      | `head command`     | [How to Print First 10 Lines of Files in Linux](https://www.tecmint.com/head-command-examples/) – {6 Examples} |
-|17      | `tail command`     | [How to Print Last 10 Lines of Files in Linux](https://www.tecmint.com/view-contents-of-file-in-linux/) – {6 Examples} |
-|18      | `cut command`      | [How to Cut Sections of Line in File](https://www.tecmint.com/cut-command-in-linux/) – {8 Examples} |
-|19      | `tee command`      | [How to Use ‘tee’ Command in Linux](https://www.tecmint.com/tee-command-examples/) – {8 Examples} |
-|20      | `sort command`     | [How to Sort Files Based on Sizes in Linux](https://www.tecmint.com/sort-command-linux/) – {14 Examples} |
-|21      | `uniq command`     | [How to Remove Duplicate Lines in Linux](https://www.tecmint.com/remove-duplicate-lines-linux-files/) – {8 Examples} |
-|22      | `ps command`       | [How to List Currently Running Linux Processes](https://www.tecmint.com/ps-command-examples-for-linux-process-monitoring/) – {30 Examples} |
-|23      | `kill command`     | [How to Kill a Running Linux Process](https://www.tecmint.com/how-to-kill-a-process-in-linux/) – {4 Examples} |
-|24      | `df command`       | [How to Check Disk Usage of Linux File System](https://www.tecmint.com/how-to-check-disk-space-in-linux/) – {12 Examples} |
-|25      | `chown command`    | [How to Change File Owner and Group in Linux](https://www.tecmint.com/chown-command-examples/) – {11 Examples} |
-|26      | `ifconfig command` | [How to Configure Network Interface in Linux](https://www.tecmint.com/ifconfig-command-examples/) – {15 Examples} |
-|27      | `ip command`       | [How to Configure Network Interface in Linux](https://www.tecmint.com/ip-command-examples/) – {24 Examples} |
-|28      | `wget command`     | [How to Download Files from Network in Linux](https://www.tecmint.com/10-wget-command-examples-in-linux/) – {10 Examples} |
-|29      | `curl command`     | [How to Transfer Data From or To a Server in Linux](https://www.tecmint.com/linux-curl-command-examples/) – {15 Examples} |
-|30      | `apt command`      | [How to Install Packages in Debian-based Systems](https://www.tecmint.com/apt-advanced-package-command-examples-in-ubuntu/) – {15 Examples} |
-|31      | `apt-get command`  | [How to Manage Packages in Debian-based Systems](https://www.tecmint.com/useful-basic-commands-of-apt-get-and-apt-cache-for-package-management/) – {25 Examples} |
-|32      | `yum command`      | [How to Install Software Packages in RHEL-based Systems](https://www.tecmint.com/20-linux-yum-yellowdog-updater-modified-commands-for-package-mangement/) – {20 Examples} |
-|33      | `dnf command`      | [How to Install Software Packages in Fedora](https://www.tecmint.com/dnf-commands-for-fedora-rpm-package-management/) – {27 Examples} |
-|34      | `rpm command`      | [How to Install RPM Packages in RHEL-based Systems](https://www.tecmint.com/20-practical-examples-of-rpm-commands-in-linux/) – {20 Examples} |
-|35      | `alias command`    | [How to Create and Use Alias Command in Linux](https://www.tecmint.com/create-alias-in-linux/) |
-|36      | `dd command`       | [How to Learn dd Command in Linux](https://www.tecmint.com/dd-command-examples/) – {15 Useful Examples} |
-|37      | `top command`      | [How to Monitor Running Linux Processes](https://www.tecmint.com/12-top-command-examples-in-linux/) – {16 Examples} |
-|38      | `useradd command`  | [How to Create New Users in Linux](https://www.tecmint.com/add-users-in-linux/) – {15 Examples} |
-|39      | `sleep command`    | [How to Use “sleep” Command in Linux](https://www.tecmint.com/linux-sleep-command-examples/) – {6 Examples} |
-|40      | `screen command`   | [Getting Started with Linux Screen Command](https://www.tecmint.com/screen-command-examples-to-manage-linux-terminals/) – {20 Examples} |
-|41      | `pv command`       | [How to Monitor Progress of Data in Linux](https://www.tecmint.com/monitor-copy-backup-tar-progress-in-linux-using-pv-command/) |
-|42      | `fgrep command`    | [How to Use fgrep Command to Search for Strings in Linux](https://www.tecmint.com/fgrep-command-examples/) – {12 Examples} |
-|43      | `dir command`      | [How to Create New Directories in Linux](https://www.tecmint.com/linux-dir-command-usage-with-examples/) – {8 Examples} |
-|44      | `egrep command`    | [How to Search Patterns in Files in Linux](https://www.tecmint.com/egrep-command-examples/) – {20 Examples} |
-|45      | `ssh command`      | [Basic SSH Command Usage and Configuration in Linux](https://www.tecmint.com/ssh-command-usage/) |
-|46      | `fd command`       | [A Simple and Fast Alternative to Find Command](https://www.tecmint.com/fd-alternative-to-find-command/) |
-|47      | `lsof command`     | [How to List Open Files in Linux](https://www.tecmint.com/10-lsof-command-examples-in-linux/) – {10 Examples} |
-|48      | `dig command`      | [How to Query DNS in Linux](https://www.tecmint.com/dig-command-examples/) – {10 Examples} |
-|49      | `nslookup command` | [How to Query Internet Domain Name Servers](https://www.tecmint.com/8-linux-nslookup-commands-to-troubleshoot-dns-domain-name-server/) – {8 Examples} |
-|50      | `du command`       | [How to Find Disk Usage of Files and Directories](https://www.tecmint.com/check-linux-disk-usage-of-files-and-directories/) – {10 Examples} |
-|51      | `tree command`     | [How to List Directory in Tree-like Format in Linux](https://www.tecmint.com/linux-tree-command-examples/) – {12 Examples} |
-|52      | `ss command`       | [How to Monitor Network Connection Statistics in Linux](https://www.tecmint.com/ss-command-examples-in-linux/) – {12 Examples} |
-|53      | `partx command`    | [How to List Disk Partitions in Linux](https://www.tecmint.com/partx-command-in-linux-with-examples/) – {8 Examples} |
-|54      | `uptime command`   | [How to Check the Running Time of Linux System](https://www.tecmint.com/linux-uptime-command-examples/) |
-|55      | `tr command`       | [How to Translate or Delete Characters in Linux](https://www.tecmint.com/tr-command-examples-in-linux/) – {10 Examples} |
-|56      | `ping command`     | How to Check Network Connectivity Between Hosts in Linux – {12 Examples} |
-|57      | `zcat command`     | [How to View Contents of Compressed File in Linux](https://www.tecmint.com/linux-zcat-command-examples/) – {6 Examples} |
-|58      | `xargs command`    | [How to Build and Execute Commands from Standard Input](https://www.tecmint.com/xargs-command-examples/) – {12 Examples} |
-|59      | `rm command`       | [How to Delete Files and Directories in Linux](https://www.tecmint.com/linux-rm-command-examples/) – {8 Examples} |
-|60      | `stat command`     | [How to Check File or File System Status in Linux](https://www.tecmint.com/linux-stat-command-examples/) – {5 Examples} |
-|61      | `who command`      | [How to Check Who is Logged-On in Linux](https://www.tecmint.com/linux-who-command-examples/) – {10 Examples} |
-|62      | `locate command`   | [How to Find Files by Name in Linux](https://www.tecmint.com/linux-locate-command-practical-examples/) – {10 Examples} |
-|63      | `host command`     | [How to Find IP Address of Domain Name in Linu](https://www.tecmint.com/linux-host-command-examples-for-querying-dns-lookups/) – {13 Examples} |
-|64      | `find command`     | [How to Find Files and Directories in Linux](https://www.tecmint.com/35-practical-examples-of-linux-find-command/) – {35 Examples} |
-|65      | `fuser command`    | [How to Find PIDs of Processes Using Files or Sockets in Linux](https://www.tecmint.com/learn-how-to-use-fuser-command-with-examples-in-linux/) – {4 Examples} |
-|66      | `at command`       | [How to Schedule a Command on Particular Time in Linux](https://www.tecmint.com/linux-cron-alternative-at-command-to-schedule-tasks/) |
-|67      | `fdisk command`    | [How to Create and Manage Disk Partitions in Linux](https://www.tecmint.com/fdisk-commands-to-manage-linux-disk-partitions/) – {10 Examples} |
-|68      | `parted command`   | [How to Create, Resize, and Rescue Disk Partitions in Linux](https://www.tecmint.com/parted-command-to-create-resize-rescue-linux-disk-partitions/) – {8 Examples} |
-|69      | `wc command`       | [How to Count Number of Lines, Words, Characters in Linux](https://www.tecmint.com/wc-command-examples/) – {6 Examples} |
-|70      | `dpkg command`     | [How to Manage .deb Packages in Debian-based Systems](https://www.tecmint.com/dpkg-command-examples/) – {15 Examples} |
-|71      | `nmap command`     | [A Network and Security Auditing Tool for Linux](https://www.tecmint.com/nmap-command-examples/) – {29 Examples} |
-|72      | `dmesg command`    | [How to Troubleshoot and Collect Information of Linux Systems](https://www.tecmint.com/dmesg-commands/) – {7 Examples} |
-|73      | `chattr command`   | [How to Make Important Files IMMUTABLE in Linux](https://www.tecmint.com/chattr-command-examples/) – {5 Examples} |
-|74      | `usermod command`  | [How to Modify User Accounts in Linux](https://www.tecmint.com/usermod-command-examples/) – {15 Examples} |
-|75      | `free command`     | [How to Check Memory Usage in Linux](https://www.tecmint.com/check-memory-usage-in-linux/) – {10 Examples} |
-|76      | `cron command`     | [How to Check Memory Usage in Linux](https://www.tecmint.com/11-cron-scheduling-task-examples-in-linux/) – {11 Examples} |
-|77      | `mysql command`    | [How to Backup and Restore MySQL Databases in Linux](https://www.tecmint.com/mysql-backup-and-restore-commands-for-database-administration/) – {20 Examples} |
-|78      | `sdiff command`    | [How to Check Difference Between Two Files in Linux](https://www.tecmint.com/linux-sdiff-command-examples/) – {11 Examples} |
-|79      | `history command`  | [How to View Previously Executed Linux Command](https://www.tecmint.com/linux-sdiff-command-examples/) – {10 Examples} |
-|80      | `netstat command`  | [How to Check Network Listening Ports in Linux](https://www.tecmint.com/20-netstat-commands-for-linux-network-management/) – {20 Examples} |
-|81      | `sftp command`     | [How to Securely Transfer Files Between Linux Systems](https://www.tecmint.com/sftp-command-examples/) – {10 Examples} |
-|82      | `tcpdump command`  | [How to Analyzer Network Packets in Linux](https://www.tecmint.com/12-tcpdump-commands-a-network-sniffer-tool/) – {12 Examples} |
-|83      | `scp command`      | [How to Copy Files and Directories Between Remote Linux](https://www.tecmint.com/scp-commands-examples/) – {10 Examples} |
-|84      | `rsync command`    | [How to Sync Files and Directories Between Remote Linux](https://www.tecmint.com/rsync-local-remote-file-synchronization-commands/) – {10 Examples} |
-|85      | `fsck command`     | [How to Repair File System Errors in Linux](https://www.tecmint.com/fsck-repair-file-system-errors-in-linux/) |
-|86      | `bc command`       | [How to Do Basic Calculations in Linux](https://www.tecmint.com/bc-command-examples/) – {10 Examples} |
-|87      | `chage command`    | [How to Manage User Password Expiration and Aging in Linux](https://www.tecmint.com/manage-user-password-expiration-and-aging-in-linux/) – {5 Examples} |
-|88      | `ffmpeg command`   | [How to Convert Video, Audio, and Image in Linux](https://www.tecmint.com/ffmpeg-commands-for-video-audio-and-image-conversion-in-linux/) – {15 Examples} |
-|89      | `mknod command`    | [How to Create Device Files in Linux](https://www.tecmint.com/mknod-command/) – {5 Examples} |
-
-### Linux Advance Commands
-
-|   1   | [7 Quirky ‘ls’ Command Tricks Every Linux User Should Know](https://www.tecmint.com/linux-ls-command-tricks/) |
-| ----  | ------------------------------------------------------------ |
-|   2   | [6 Deprecated Linux Commands and Alternative Tools You Should Use](https://www.tecmint.com/deprecated-linux-commands/) |
-|   3   | [13 Most Commonly Used Linux Commands You Should Know](https://www.tecmint.com/most-used-linux-commands/) |
-|   4   | [10 Most Dangerous Commands You Should Never Execute on Linux](https://www.tecmint.com/dangerous-linux-commands/) |
-|   5   | [30 Useful Linux Commands for System Administrators](https://www.tecmint.com/useful-linux-commands-for-system-administrators/) |
-|   6   | [13 Linux Network Configuration and Troubleshooting Commands](https://www.tecmint.com/linux-network-configuration-and-troubleshooting-commands/) |
-|   7   | [20 Commands for Newbies Who Switched from Windows to Linux](https://www.tecmint.com/useful-linux-commands-for-newbies/) |
-|   8   | [22 Linux Networking Commands for Sysadmin](https://www.tecmint.com/linux-networking-commands/) |
-|   9   | [6 Interesting Funny Commands of Linux (Fun in Terminal)](https://www.tecmint.com/linux-funny-commands/) |
-|   10  | [20 Funny Commands of Linux or Linux is Fun in Terminal](https://www.tecmint.com/20-funny-commands-of-linux-or-linux-is-fun-in-terminal/) |
-|   11  | [Deprecated Linux Networking Commands and Their Replacements](https://www.tecmint.com/deprecated-linux-networking-commands-and-their-replacements/) |
-|   12  | [12 Useful Commands For Filtering Text for Effective File Operations in Linux](https://www.tecmint.com/linux-file-operations-commands/) |
-|   13  | [10 Interesting Linux Command Line Tricks and Tips Worth Knowing](https://www.tecmint.com/linux-command-line-tricks-and-tips-worth-knowing/) |
-|   14  | [11 Advanced Linux ‘Grep’ Commands on Character Classes and Bracket Expressions](https://www.tecmint.com/linux-grep-commands-character-classes-bracket-expressions/) |
-|   15  | [8 Useful Commands to Monitor Swap Space Usage in Linux](https://www.tecmint.com/commands-to-monitor-swap-space-usage-in-linux/) |
-|   16  | [5 Useful Commands to Manage File Types and System Time in Linux](https://www.tecmint.com/manage-file-types-and-set-system-time-in-linux/) |
-|   17  | [10 Useful Linux Command Line Tricks for Newbies](https://www.tecmint.com/10-useful-linux-command-line-tricks-for-newbies/) |
-|   18  | [10 Amazing and Mysterious Uses of (!) Symbol or Operator in Linux Commands](https://www.tecmint.com/mysterious-uses-of-symbol-or-operator-in-linux-commands/) |
-|   19  | [51 Useful Lesser Known Commands for Linux Users](https://www.tecmint.com/51-useful-lesser-known-commands-for-linux-users/) |
-|   20  | [10 Lesser Known Useful Linux Commands](https://www.tecmint.com/10-lesser-known-useful-linux-commands-part-v/) |
-|   21  | [10 Useful Chaining Operators in Linux with Practical Examples](https://www.tecmint.com/chaining-operators-in-linux-with-practical-examples/) |
-|   22  | [10 Lesser Known Effective Linux Commands](https://www.tecmint.com/10-lesser-known-effective-linux-commands-part-iv/) |
-|   23  | [60 Commands of Linux: A Guide from Newbies to System Administrator](https://www.tecmint.com/60-commands-of-linux-a-guide-from-newbies-to-system-administrator/) |
-|   24  | [20 Advanced Commands for Linux Experts](https://www.tecmint.com/20-advanced-commands-for-linux-experts/) |
-|   25  | [20 Advanced Commands for Middle-Level Linux Users](https://www.tecmint.com/20-advanced-commands-for-middle-level-linux-users/) |
-
-### Linux Alternative Commands
-
-|   1   | [Exa – A Modern Replacement for “ls Command” Written in Rust](https://www.tecmint.com/exa-a-replacement-for-ls-command-linux/) |
-| ----  | ------------------------------------------------------------ |
-|   2   | [bd – Quickly Go Back to a Parent Directory Instead of Typing ‘cd’ Command](https://www.tecmint.com/bd-quickly-go-back-to-a-linux-parent-directory/) |
-|   3   | [Bat – A Cat Clone with Syntax Highlighting and Git Integration](https://www.tecmint.com/bat-a-cat-clone-with-syntax-highlighting/) |
-|   4   | [ccat – Show ‘cat Command’ Output with Syntax Highlighting or Colorizing](https://www.tecmint.com/cat-command-output-with-syntax-highlighting-or-color/) |
-|   5   | [Autojump – An Advanced ‘cd’ Command to Quickly Navigate Linux Filesystem](https://www.tecmint.com/autojump-a-quickest-way-to-navigate-linux-filesystem/) |
-
-
-
-
-
 
 <br/>
 
@@ -301,3 +163,261 @@
 ##### []()
 ##### []()
 
+
+
+
+<br/>
+
+<h2 id="nav_7">🌅 BEGINNER’S GUIDE FOR LINUX </h2>
+
+
+#### Section 1: Introduction To Linux and OS Installations
+
+- [What Is Linux? and How Does Linux Work?](https://www.tecmint.com/what-is-linux/)
+- [A Basic Guide to Linux Boot Process](https://www.tecmint.com/linux-boot-process/)
+- [Linux Directory Structure and Important Files](https://www.tecmint.com/linux-directory-structure-and-important-files-paths-explained/)
+- [How to Install RHEL 9 for Free](https://www.tecmint.com/download-install-rhel-9-free/)
+- [How to Install VirtualBox to Try Different Linux Distros](https://www.tecmint.com/install-virtualbox-on-redhat-centos-fedora/)
+- [Best Linux Distributions for Beginners To Try](https://www.tecmint.com/best-linux-distributions-for-beginners/)
+- [Install Rocky Linux on VirtualBox on Windows](https://www.tecmint.com/install-rocky-linux-in-virtualbox-on-windows/)
+
+#### Section 2: Essential Basic Linux Commands
+
+- [`ls Command` – List Files and Directories in Linux](https://www.tecmint.com/15-basic-ls-command-examples-in-linux/)
+- [`cd Command` – Switch Between Directories in Linux](https://www.tecmint.com/cd-command-in-linux/)
+- [`pwd Command` – Check Current Working Directory in Linux](https://www.tecmint.com/pwd-command-examples/)
+- [`dir Command` – List Contents of a Directory in Linux](https://www.tecmint.com/linux-dir-command-usage-with-examples/)
+- [`mkdir Command` – Create New Directories in Linux](https://www.tecmint.com/mkdir-command-examples/)
+- [`rmdir Command` – Delete Directories in Linux](https://www.tecmint.com/rmdir-command-examples/)
+- [`mv Command` – Rename or Move Files and Directories in Linux](https://www.tecmint.com/mv-command-linux-examples/)
+- [`cp Command` – Copy Files and Directories in Linux](https://www.tecmint.com/cp-command-examples/)
+- [`touch Command` – Create New Files in Linux](https://www.tecmint.com/8-pratical-examples-of-linux-touch-command/)
+- [`find Command` – Find Files and Directories in Linux](https://www.tecmint.com/35-practical-examples-of-linux-find-command/)
+- [`cat Command` – List Contents of Files in Linux](https://www.tecmint.com/13-basic-cat-command-examples-in-linux/)
+- [`df Command` – Check Linux File System Disk Space Usage](https://www.tecmint.com/how-to-check-disk-space-in-linux/)
+- [`du Command` – Check Disk Usage of Files and Directories](https://www.tecmint.com/check-linux-disk-usage-of-files-and-directories/)
+- [`tar Command` – Create, Extract, and List Archive Files in Linux](https://www.tecmint.com/tar-command-examples-linux/)
+- [`grep Command` – Find Patterns or Strings in Text Files](https://www.tecmint.com/12-practical-examples-of-linux-grep-command/)
+- [`ln Command` – Create Hard and Symbolic Links in Linux](https://www.tecmint.com/create-hard-and-symbolic-links-in-linux/)
+- [`alias Command` – Create Alias (Shortcuts) in Linux](https://www.tecmint.com/create-alias-in-linux/)
+- [`echo Command` – How to Print Line of Text in Linux](https://www.tecmint.com/echo-command-in-linux/)
+- [`tail Command` – Print Last 10 Lines of File in Linux](https://www.tecmint.com/tail-command-linux/)
+- [`top Command` – List Running Processes in Linux](https://www.tecmint.com/12-top-command-examples-in-linux/)
+- [`ps Command` – List Running Processes with PIDs in Linux](https://www.tecmint.com/ps-command-examples-for-linux-process-monitoring/)
+- [`kill Command` – Kill Running Processes with PIDs in Linux](https://www.tecmint.com/how-to-kill-a-process-in-linux/)
+- [`uniq Command` – Remove Duplicate Lines in Linux](https://www.tecmint.com/remove-duplicate-lines-linux-files/)
+
+#### Section 3: Essentials of Advance Linux Commands
+
+- [Quirky ‘ls’ Commands Every Linux User Must Know](https://www.tecmint.com/linux-ls-command-tricks/)
+- [Manage Files Effectively using head, tail and cat Commands in Linux](https://www.tecmint.com/view-contents-of-file-in-linux/)
+- [Count Number of Lines, Words, Characters in File using ‘wc’ Command](https://www.tecmint.com/wc-command-examples/)
+- [Basic ‘sort’ Commands to Sort Files in Linux](https://www.tecmint.com/linux-sort-command-examples/)
+- [Advance ‘sort’ Commands to Sort Files in Linux](https://www.tecmint.com/sort-command-linux/)
+- [Pydf an Alternative “df” Command to Check Disk Usage](https://www.tecmint.com/pyd-command-to-check-disk-usage/)
+- [Check Linux Ram Usage with ‘free’ Command](https://www.tecmint.com/check-memory-usage-in-linux/)
+- [Advance ‘rename’ Command to Rename Files and Directories](https://www.tecmint.com/rename-multiple-files-in-linux/)
+- [Print Text/String in Terminal using ‘echo’ Command](https://www.tecmint.com/echo-command-in-linux/)
+
+#### Section 4: Some More Advanced Linux Commands
+
+- [Switching From Windows to Nix – 20 Useful Commands for Newbies – Part 1](https://www.tecmint.com/useful-linux-commands-for-newbies/)
+- [20 Advanced Commands for Middle Level Linux Users – Part 2](https://www.tecmint.com/20-advanced-commands-for-middle-level-linux-users/)
+- [20 Advanced Commands for Linux Experts – Part 3](https://www.tecmint.com/20-advanced-commands-for-linux-experts/)
+- [20 Funny Commands of Linux or Linux is Fun in Terminal – Part 1](https://www.tecmint.com/20-funny-commands-of-linux-or-linux-is-fun-in-terminal/)
+- [6 Interesting Funny Commands of Linux (Fun in Terminal) – Part 2](https://www.tecmint.com/linux-funny-commands/)
+- [51 Useful Lesser Known Commands for Linux Users](https://www.tecmint.com/51-useful-lesser-known-commands-for-linux-users/)
+- [10 Most Dangerous Commands – You Should Never Execute on Linux](https://www.tecmint.com/10-most-dangerous-commands-you-should-never-execute-on-linux/)
+
+#### Section 5: User, Group, and File Permissions Management
+
+- [How to Add or Create New Users using ‘useradd’ Command](https://www.tecmint.com/add-users-in-linux/)
+- [How to Modify or Change Users Attributes using ‘usermod’ Command](https://www.tecmint.com/usermod-command-examples/)
+- [Managing Users & Groups, File Permissions & Attributes](https://www.tecmint.com/manage-users-and-groups-in-linux/) – **Advance Level**
+- [Difference Between su and sudo – How to Configure sudo](https://www.tecmint.com/su-vs-sudo-and-how-to-configure-sudo-in-linux/) – **Advance Level**
+- [How to Monitor User Activity with psacct or acct Tools](https://www.tecmint.com/how-to-monitor-user-activity-with-psacct-or-acct-tools/)
+
+#### Section 6: Linux Package Management
+
+- [Yum Package Management – CentOS, RHEL and Fedora](https://www.tecmint.com/20-linux-yum-yellowdog-updater-modified-commands-for-package-mangement/)
+- [RPM Package Management – CentOS, RHEL and Fedora](https://www.tecmint.com/20-practical-examples-of-rpm-commands-in-linux/)
+- [APT-GET and APT-CACHE Package Management – Debian, Ubuntu](https://www.tecmint.com/useful-basic-commands-of-apt-get-and-apt-cache-for-package-management/)
+- [DPKG Package Management – Debian, Ubuntu](https://www.tecmint.com/dpkg-command-examples/)
+- [Zypper Package Management – Suse and OpenSuse](https://www.tecmint.com/zypper-commands-to-manage-suse-linux-package-management/)
+- [Linux Package Management with Yum, RPM, Apt, Dpkg, Aptitude and Zypper](https://www.tecmint.com/linux-package-management/) – **Advance Level**
+- [27 ‘DNF’ (Fork of Yum) Commands for RPM Package Management](https://www.tecmint.com/dnf-commands-for-fedora-rpm-package-management/) – **New Update**
+
+#### Section 7: System Monitoring & Cron Scheduling
+
+- [Linux Process Monitoring with top Command](https://www.tecmint.com/12-top-command-examples-in-linux/)
+- [Linux Process Management with Kill, Pkill and Killall Commands](https://www.tecmint.com/how-to-kill-a-process-in-linux/)
+- [Linux File Process Management with lsof Commands](https://www.tecmint.com/10-lsof-command-examples-in-linux/)
+- [Linux Job Scheduling with Cron](https://www.tecmint.com/11-cron-scheduling-task-examples-in-linux/)
+- [20 Command Line Tools to Monitor Linux Performance – Part 1](https://www.tecmint.com/command-line-tools-to-monitor-linux-performance/)
+- [13 Linux Performance Monitoring Tools – Part 2](https://www.tecmint.com/linux-performance-monitoring-tools/)
+- [Nagios Monitoring Tool for Linux](https://www.tecmint.com/install-nagios-in-linux/) – **Advance Level**
+- [Zabbix Monitoring Tool for Linux](https://www.tecmint.com/install-and-configure-zabbix-monitoring-on-debian-centos-rhel/) – **Advance Level**
+- [Shell Script to Monitor Network, Disk Usage, Uptime, Load Average and RAM](https://www.tecmint.com/linux-server-health-monitoring-script/) – **New Update**
+
+#### Section 8: Linux Archiving/Compression, Backup/Sync and Recovery
+
+##### Archiving/Compression Files
+
+- [How to Archive/Compress Linux Files and Directories using ‘tar’ Command](https://www.tecmint.com/18-tar-command-examples-in-linux/)
+- [How to Open, Extract and Create RAR Files in Linux](https://www.tecmint.com/how-to-open-extract-and-create-rar-files-in-linux/)
+- [5 Tools to Archive/Compress Files in Linux](https://www.tecmint.com/command-line-archive-tools-for-linux/)
+- [How to Archive/Compress Files and Setting File Attributes](https://www.tecmint.com/compress-files-and-finding-files-in-linux/) – **Advance Level**
+
+##### Backup/Sync Files and Directories in Linux
+
+- [How to Copy/Synchronize Files and Directories Locally/Remotely with rsync](https://www.tecmint.com/rsync-local-remote-file-synchronization-commands/)
+- [How to Transfer Files/Folders in Linux using scp](https://www.tecmint.com/scp-commands-examples/)
+- [Rsnapshot (Rsync Based) – A Local/Remote File System Backup Tool](https://www.tecmint.com/rsnapshot-a-file-system-backup-utility-for-linux/)
+- [Sync Two Apache Web Servers/Websites Using Rsync – Advance Level](https://www.tecmint.com/sync-two-apache-websites-using-rsync/)
+
+##### Backup/Recovery Linux Filesystems
+
+- [Backup and Restore Linux Systems using Redo Backup Tool](https://www.tecmint.com/redo-backup-and-recovery-tool-to-backup-and-restore-linux-systems/)
+- [How to Clone/Backup Linux Systems Using – Mondo Rescue Disaster Recovery Tool](https://www.tecmint.com/how-to-clone-linux-systems/)
+- [How to Recover Deleted Files/Folders using ‘Scalpel’ Tool](https://www.tecmint.com/install-scalpel-a-filesystem-recovery-tool-to-recover-deleted-filesfolders-in-linux/)
+- [8 “Disk Cloning/Backup” Softwares for Linux Servers](https://www.tecmint.com/linux-disk-cloning-tools/)
+
+#### Section 9: Linux File System / Network Storage Management
+
+- [What is Ext2, Ext3 & Ext4 and How to Create and Convert Linux File Systems](https://www.tecmint.com/what-is-ext2-ext3-ext4-and-how-to-create-and-convert-linux-file-systems/)
+- [Understanding Linux File System Types](https://www.tecmint.com/linux-file-system-explained/)
+- [Linux File System Creation and Configurations](https://www.tecmint.com/create-partitions-and-filesystems-in-linux/) – **Advance Level**
+- [Setting Up Standard Linux File Systems and Configuring NFSv4 Server](https://www.tecmint.com/configure-nfs-server/) – **Advance Level**
+- [How to Mount/Unmount Local and Network (Samba & NFS) Filesystems](https://www.tecmint.com/mount-filesystem-in-linux/) – **Advance Level**
+- [How to Create and Manage Btrfs File System in Linux](https://www.tecmint.com/create-btrfs-filesystem-in-linux/) – **Advance Level**
+- [Introduction to GlusterFS (File System) and Installation](https://www.tecmint.com/introduction-to-glusterfs-file-system-and-installation-on-rhelcentos-and-fedora/) – **Advance Level**
+
+#### Section 10: Linux LVM Management
+
+- [Setup Flexible Disk Storage with Logical Volume Management](https://www.tecmint.com/create-lvm-storage-in-linux/)
+- [How to Extend/Reduce LVM’s (Logical Volume Management)](https://www.tecmint.com/extend-and-reduce-lvms-in-linux/)
+- [How to Take Snapshot/Restore LVM’s](https://www.tecmint.com/take-snapshot-of-logical-volume-and-restore-in-lvm/)
+- [Setup Thin Provisioning Volumes in LVM](https://www.tecmint.com/setup-thin-provisioning-volumes-in-lvm/)
+- [Manage Multiple LVM Disks using Striping I/O](https://www.tecmint.com/manage-multiple-lvm-disks-using-striping-io/)
+- [Migrating LVM Partitions to New Logical Volume](https://www.tecmint.com/lvm-storage-migration/)
+
+#### Section 11: Linux RAID Management
+
+- [Introduction to RAID, Concepts of RAID and RAID Levels](https://www.tecmint.com/understanding-raid-setup-in-linux/)
+- [Creating Software RAID0 (Stripe) on ‘Two Devices’ Using ‘mdadm](https://www.tecmint.com/create-raid0-in-linux/)
+- [Setting up RAID 1 (Mirroring) using ‘Two Disks’ in Linux](https://www.tecmint.com/create-raid1-in-linux/)
+- [Creating RAID 5 (Striping with Distributed Parity) in Linux](https://www.tecmint.com/create-raid-5-in-linux/)
+- [Setup RAID Level 6 (Striping with Double Distributed Parity) in Linux](https://www.tecmint.com/create-raid-6-in-linux/)
+- [Setting Up RAID 10 or 1+0 (Nested) in Linux](https://www.tecmint.com/create-raid-10-in-linux/)
+- [Growing an Existing RAID Array and Removing Failed Disks in Linux](https://www.tecmint.com/grow-raid-array-in-linux/)
+- [Assembling Partitions as RAID Devices – Creating & Managing System Backups](https://www.tecmint.com/creating-and-managing-raid-backups-in-linux/)
+
+#### Section 12: Manage Services in Linux
+
+- [Configure Linux Services to Start and Stop Automatically](https://www.tecmint.com/chkconfig-command-examples/)
+- [How to Stop and Disable Unwanted Services in Linux](https://www.tecmint.com/remove-unwanted-services-from-linux/)
+- [How to Manage ‘Systemd’ Services Using Systemctl in Linux](https://www.tecmint.com/manage-services-using-systemd-and-systemctl-in-linux/)
+- [Managing System Startup Process and Services in Linux](https://www.tecmint.com/linux-boot-process-and-manage-services/)
+
+#### Section 13: Linux System Security and Firewall
+
+##### Linux Security and Tools
+
+- [25 Hardening Security Tips for Linux Servers](https://www.tecmint.com/linux-server-hardening-security-tips/)
+- [5 Best Practices to Secure and Protect SSH Server](https://www.tecmint.com/5-best-practices-to-secure-and-protect-ssh-server/)
+- [How to Password Protect Grub in Linux](https://www.tecmint.com/password-protect-grub-in-linux/)
+- [Protect SSH Logins with SSH & MOTD Banner Messages](https://www.tecmint.com/protect-ssh-logins-with-ssh-motd-banner-messages/)
+- [How to Audit Linux Systems using Lynis Tool](https://www.tecmint.com/install-lynis-auditing-tool-in-rhel-centos-fedora/)
+- [Secure Files/Directories using ACLs (Access Control Lists) in Linux](https://www.tecmint.com/secure-files-using-acls-in-linux/)
+- [How to Audit Network Performance, Security, and Troubleshooting in Linux](https://www.tecmint.com/audit-network-performance-security-and-troubleshooting-in-linux/)
+- [Mandatory Access Control Essentials with SELinux](https://www.tecmint.com/selinux-essentials-and-control-filesystem-access/) – **New Update**
+
+##### Linux Firewall and Tools
+
+- [Basic Guide on IPTables (Linux Firewall) Tips / Commands](https://www.tecmint.com/basic-guide-on-iptables-linux-firewall-tips-commands/)
+- [How To Setup an Iptables Firewall in Linux](https://www.tecmint.com/configure-iptables-firewall/)
+- [How to Configure ‘FirewallD’ in Linux](https://www.tecmint.com/configure-firewalld-in-centos-7)
+- [Useful ‘FirewallD’ Rules to Configure and Manage Firewall in Linux](https://www.tecmint.com/firewalld-rules-for-centos-7/)
+- [How to Install and Configure UFW – An Un-complicated FireWall](https://www.tecmint.com/how-to-install-and-configure-ufw-firewall/)
+- [Shorewall – A High-Level Firewall for Configuring Linux Servers](https://www.tecmint.com/shorewall-a-high-level-firewall-for-configuring-linux-servers/)
+- [Install ConfigServer Security & Firewall (CSF) in Linux](https://www.tecmint.com/install-configserver-security-firewall-csf-in-rhel-centos-fedora/)
+- [How to Install ‘IPFire’ Free Firewall Linux Distribution](https://www.tecmint.com/install-ipfire-firewall-distribution/)
+- [How to Install and Configure pfSense 2.1.5 (Firewall/Router) in Linux](https://www.tecmint.com/how-to-install-and-configure-pfsense/)
+- [10 Useful Open Source Security Firewalls for Linux Systems](https://www.tecmint.com/open-source-security-firewalls-for-linux-systems/)
+
+#### Section 14: LAMP (Linux, Apache, MySQL/MariaDB and PHP) Setup’s
+
+- [Installing LAMP in RHEL/CentOS 6.0](https://www.tecmint.com/install-apache-mysql-php-on-redhat-centos-fedora/)
+- [Installing LAMP in RHEL/CentOS 7.0](https://www.tecmint.com/install-lamp-in-centos-7/)
+- [Ubuntu 14.04 Server Installation Guide and Setup LAMP](https://www.tecmint.com/ubuntu-14-04-server-installation-guide-and-lamp-setup/)
+- [Installing LAMP in Arch Linux](https://www.tecmint.com/install-lamp-in-arch-linux/)
+- [Setting Up LAMP in Ubuntu Server 14.10](https://www.tecmint.com/install-apache-mariadb-php-phpmyadmin-in-ubuntu-14-10/)
+- [Installing LAMP in Gentoo Linux](https://www.tecmint.com/install-lamp-in-gentoo-linux/)
+- [Creating Your Own Webserver and Hosting A Website from Your Linux Box](https://www.tecmint.com/creating-your-own-webserver-and-hosting-a-website-from-your-linux-box/)
+- [Apache Virtual Hosting: IP Based and Name Based Virtual Hosts in Linux](https://www.tecmint.com/apache-ip-based-and-name-based-virtual-hosting/)
+- [How to Setup Standalone Apache Server with Name-Based Virtual Hosting with SSL Certificate](https://www.tecmint.com/setup-apache-with-name-based-virtual-hosting-with-ssl-certificate/)
+- [Creating Apache Virtual Hosts with Enable/Disable Vhosts Options in RHEL/CentOS 7.0](https://www.tecmint.com/apache-virtual-hosting-in-centos/)
+- [Creating Virtual Hosts, Generate SSL Certificates & Keys and Enable CGI Gateway in Gentoo Linux](https://www.tecmint.com/create-apache-virtual-hosts-in-gentoo/)
+- [Protect Apache Against Brute Force or DDoS Attacks Using Mod_Security and Mod_evasive Modules](https://www.tecmint.com/protect-apache-using-mod_security-and-mod_evasive-on-rhel-centos-fedora/)
+- [13 Apache Web Server Security and Hardening Tips](https://www.tecmint.com/apache-security-tips/)
+- [How to Sync Two Apache Web Servers/Websites Using Rsync](https://www.tecmint.com/sync-two-apache-websites-using-rsync/)
+- [How to Install ‘Varnish’ (HTTP Accelerator) and Perform Load Testing Using Apache Benchmark](https://www.tecmint.com/install-varnish-cache-web-accelerator/)
+- [Installing and Configuring LAMP/LEMP Stack on Debian 8 Jessie](https://www.tecmint.com/installing-lamp-and-lemp-on-debian-8-jessie/) – **New Update**
+
+#### Section 15: LEMP (Linux, Nginx, MySQL/MariaDB and PHP) Setup’s
+
+- [Install LEMP in Linux](https://www.tecmint.com/install-lemp-linux-nginx-mysql-php-on-rhel-centos-5-6-fedora-12-17/)
+- [Installing FcgiWrap and Enabling Perl, Ruby and Bash Dynamic Languages on Gentoo LEMP](https://www.tecmint.com/install-fcgiwrap-in-gentoo-linux/)
+- [Installing LEMP in Gentoo Linux](https://www.tecmint.com/install-lemp-in-gentoo-linux/)
+- [Installing LEMP in Arch Linux](https://www.tecmint.com/install-nginx-php-mysql-with-mariadb-engine-and-phpmyadmin-in-arch-linux/)
+
+#### Section 16: MySQL/MariaDB Administration
+
+- [MySQL Basic Database Administration Commands](https://www.tecmint.com/gliding-through-database-mysql-in-a-nutshell-part-i/)
+- [20 MySQL (Mysqladmin) Commands for Database Administration in Linux](https://www.tecmint.com/mysqladmin-commands-for-database-administration-in-linux/)
+- [MySQL Backup and Restore Commands for Database Administration](https://www.tecmint.com/mysql-backup-and-restore-commands-for-database-administration/)
+- [How to Setup MySQL (Master-Slave) Replication](https://www.tecmint.com/how-to-setup-mysql-master-slave-replication-in-rhel-centos-fedora/)
+- [Mytop (MySQL Database Monitoring) in Linux](https://www.tecmint.com/mytop-mysql-database-monitoring-in-rhel-centos-fedora/)
+- [Install Mtop (MySQL Database Server Monitoring) in Linux](https://www.tecmint.com/install-mtop-mysql-database-server-monitoring-in-rhel-centos-6-5-4-fedora-17-12/)
+- https://www.tecmint.com/mysql-performance-monitoring/
+
+#### Section 17: Basic Shell Scripting
+
+- [Understand Linux Shell and Basic Shell Scripting Language Tips – Part I](https://www.tecmint.com/understand-linux-shell-and-basic-shell-scripting-language-tips/)
+- [5 Shell Scripts for Linux Newbies to Learn Shell Programming – Part II](https://www.tecmint.com/basic-shell-programming-part-ii/)
+- [Sailing Through The World of Linux BASH Scripting – Part III](https://www.tecmint.com/sailing-through-the-world-of-linux-bash-scripting-part-iii/)
+- [Mathematical Aspect of Linux Shell Programming – Part IV](https://www.tecmint.com/mathematical-aspect-of-linux-shell-programming-part-iv/)
+- [Calculating Mathematical Expressions in Shell Scripting Language – Part V](https://www.tecmint.com/calculating-mathematical-expressions-in-shell-scripting-part-v/)
+- [Understanding and Writing functions in Shell Scripts – Part VI](https://www.tecmint.com/understanding-and-writing-functions-in-shell-scripts-part-vi/)
+- [Deeper into Function Complexities with Shell Scripting – Part VII](https://www.tecmint.com/deeper-into-function-complexities-with-shell-scripting-part-vii/)
+- [Working with Arrays in Linux Shell Scripting – Part 8](https://www.tecmint.com/working-with-arrays-in-linux-shell-scripting/)
+- [An Insight of Linux “Variables” in Shell Scripting Language – Part 9](https://www.tecmint.com/an-insight-of-linux-variables-in-shell-scripting/)
+- [Understanding and Writing ‘Linux Variables’ in Shell Scripting – Part 10](https://www.tecmint.com/understanding-linux-variables-in-shell-scripting/)
+- [Nested Variable Substitution and Predefined BASH Variables in Linux – Part 11](https://www.tecmint.com/nested-variable-substitution-in-linux-scripting/)
+
+#### Section 18: Linux Interview Questions
+
+- [15 Interview Questions on Linux “ls” Command – Part 1](https://www.tecmint.com/ls-command-interview-questions/)
+- [10 Useful ‘ls’ Command Interview Questions – Part 2](https://www.tecmint.com/ls-interview-questions/)
+- [Basic Linux Interview Questions and Answers – Part 1](https://www.tecmint.com/basic-linux-interview-questions-and-answers/)
+- [Basic Linux Interview Questions and Answers – Part 2](https://www.tecmint.com/basic-linux-interview-questions-and-answers-part-ii/)
+- [Linux Interview Questions and Answers for Linux Beginners – Part 3](https://www.tecmint.com/linux-interview-questions-and-answers-for-linux-beginners/)
+- [Core Linux Interview Questions and Answers](https://www.tecmint.com/core-linux-interview-questions-and-answers/)
+- [Useful Random Linux Interview Questions and Answers](https://www.tecmint.com/useful-random-linux-interview-questions-and-answers/)
+- [Interview Questions and Answers on Various Commands in Linux](https://www.tecmint.com/10-interview-questions-and-answers-on-various-commands-in-linux/)
+- [Useful Interview Questions on Linux Services and Daemons](https://www.tecmint.com/useful-interview-questions-on-linux-services-and-daemons/)
+- [Basic MySQL Interview Questions for Database Administrators](https://www.tecmint.com/basic-mysql-interview-questions-for-database-administrators/)
+- [MySQL Database Interview Questions for Beginners and Intermediates](https://www.tecmint.com/10-mysql-database-interview-questions-for-beginners-and-intermediates/)
+- [Advance MySQL Database “Interview Questions and Answers” for Linux Users](https://www.tecmint.com/mysql-advance-interview-questions/)
+- [Apache Interview Questions for Beginners and Intermediates](https://www.tecmint.com/apache-interview-questions/)
+- [VsFTP Interview Questions and Answers – Part 1](https://www.tecmint.com/ftp-interview-questions-and-answers/)
+- [Advance VsFTP Interview Questions and Answers – Part 2](https://www.tecmint.com/10-advance-vsftp-interview-questions-and-answers-part-ii/)
+- [Useful SSH (Secure Shell) Interview Questions and Answers](https://www.tecmint.com/ssh-interview-questions/)
+- [Useful “Squid Proxy Server” Interview Questions and Answers in Linux](https://www.tecmint.com/squid-interview-questions/)
+- [Linux Firewall Iptables Interview Questions](https://www.tecmint.com/linux-firewall-iptables-interview-questions-and-answers/) – **New Update**
+- [Basic Interview Questions on Linux Networking – Part 1](https://www.tecmint.com/networking-interview-questions/) – **New Update**
+
+#### Section 19: Shell Scripting Interview Questions
+
+- [Useful ‘Interview Questions and Answers’ on Linux Shell Scripting](https://www.tecmint.com/interview-questions-on-shell-scripting/)
+- [Practical Interview Questions and Answers on Linux Shell Scripting](https://www.tecmint.com/practical-interview-questions-on-linux-shell-scripting/)
