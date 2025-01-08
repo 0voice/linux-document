@@ -24,23 +24,37 @@
 ##### []()
 ##### []()
 ##### []()
+##### [How To Automate Mounting dev In Chroot Environments In Linux.md](https://github.com/0voice/linux-document/blob/main/How%20To%20Automate%20Mounting%20dev%20In%20Chroot%20Environments%20In%20Linux.md)
 ##### []()
 ##### []()
 ##### []()
-
+##### []()
+##### []()
+##### []()
+##### []()
+##### []()
+##### []()
+##### []()
+##### []()
+##### []()
+##### []()
+##### []()
+##### []()
+##### []()
+##### []()
 
 <br/>
 
 <h2 id="nav_7">🌅 构建环境搭建</h2>
 
-##### [Linux04：三种软件安装方式及服务器基本环境搭建.md](https://github.com/0voice/linux-document/blob/main/Linux04%EF%BC%9A%E4%B8%89%E7%A7%8D%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E6%96%B9%E5%BC%8F%E5%8F%8A%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md)
 ##### [Linux01：概述及环境搭建.md](https://github.com/0voice/linux-document/blob/main/Linux01%EF%BC%9A%E6%A6%82%E8%BF%B0%E5%8F%8A%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md)
+##### [Linux04：三种软件安装方式及服务器基本环境搭建.md](https://github.com/0voice/linux-document/blob/main/Linux04%EF%BC%9A%E4%B8%89%E7%A7%8D%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E6%96%B9%E5%BC%8F%E5%8F%8A%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md)
 ##### [Linux 服务器环境搭建及配置.md](https://github.com/0voice/linux-document/blob/main/Linux%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%8F%8A%E9%85%8D%E7%BD%AE.md)
 ##### []()
 ##### []()
 ##### []()
 ##### []()
-##### []()
+##### [How To Build Lightweight Docker Images With Mmdebstrap In Linux.md](https://github.com/0voice/linux-document/blob/main/How%20To%20Build%20Lightweight%20Docker%20Images%20With%20Mmdebstrap%20In%20Linux.md)
 ##### []()
 ##### []()
 ##### []()
@@ -61,13 +75,13 @@
 <h2 id="nav_7">🌅 shell命令</h2>
 
 
+##### [一篇文章让你彻底掌握 Shell.md](https://github.com/0voice/linux-document/blob/main/%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E8%AE%A9%E4%BD%A0%E5%BD%BB%E5%BA%95%E6%8E%8C%E6%8F%A1%20Shell.md)
 ##### [73条日常Linux shell命令汇总.md](https://github.com/0voice/linux-document/blob/main/73%E6%9D%A1%E6%97%A5%E5%B8%B8Linux%20shell%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB.md)
-##### []()
 ##### [Linux02：常用的基本命令.md](https://github.com/0voice/linux-document/blob/main/Linux02%EF%BC%9A%E5%B8%B8%E7%94%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4.md)
 ##### [40 个简单又有效的 Linux Shell 脚本示例.md](https://github.com/0voice/linux-document/blob/main/40%20%E4%B8%AA%E7%AE%80%E5%8D%95%E5%8F%88%E6%9C%89%E6%95%88%E7%9A%84%20Linux%20Shell%20%E8%84%9A%E6%9C%AC%E7%A4%BA%E4%BE%8B.md)
-##### []()
-##### []()
-##### []()
+##### [Linux常用命令全称及讲解.md](https://github.com/0voice/linux-document/blob/main/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%85%A8%E7%A7%B0%E5%8F%8A%E8%AE%B2%E8%A7%A3.md)
+##### [Linux shell及常用36类命令汇总.md](https://github.com/0voice/linux-document/blob/main/Linux%20shell%E5%8F%8A%E5%B8%B8%E7%94%A836%E7%B1%BB%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB.md)
+##### [Shell脚本：常用100个shell命令使用讲解题.md](https://github.com/0voice/linux-document/blob/main/Shell%E8%84%9A%E6%9C%AC%EF%BC%9A%E5%B8%B8%E7%94%A8100%E4%B8%AAshell%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8%E8%AE%B2%E8%A7%A3%E9%A2%98.md)
 ##### []()
 ##### []()
 ##### []()
