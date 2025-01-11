@@ -222,7 +222,7 @@ int main()
 } 
 ```
 
-\###9. fork 示例程序：
+### 9. fork 示例程序：
 
 ```
  #include<stdio .h >  
@@ -244,7 +244,7 @@ int main()
 }  
 ```
 
-\###10. 获取当前进程ID和父进程ID：
+### 10. 获取当前进程ID和父进程ID：
 
 ```
  #include<stdio .h >
