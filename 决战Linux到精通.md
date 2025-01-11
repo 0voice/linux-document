@@ -17,11 +17,11 @@
 因为Minix只是教学使用，因此功能并不强，因此Torvalds利用GNU的bash当做开发环境，gcc当做编译工具，编写了Linux内核-v0.02，但是一开始Linux并不能兼容Unix，即Unix上跑的应用程序不能在Linux上跑，即应用程序与内核之间的接口不一致，因为Unix是遵循POSIX规范的，因此Torvalds修改了Linux，并遵循POSIX（Portable Operating System Interface，他规范了应用程序与内核的接口规范）； 一开始Linux只适用于386，后来经过全世界的网友的帮助，最终能够兼容多种硬件
 
 ## 操作系统的发展
-![image](https://github.com/user-attachments/assets/5cb40717-05c5-45df-85b4-c8807a8ccfb4)
+![image](https://github.com/user-attachments/assets/8c84710c-a74c-446c-b7d4-6202d2782cab)
 
-![image](https://github.com/user-attachments/assets/f78452cc-02ff-4efa-baa5-56d036cf91e7)
+![image](https://github.com/user-attachments/assets/d0e9c13f-61a8-46f7-914c-a201c0394cb6)
 
-![image](https://github.com/user-attachments/assets/0e7a6faa-eade-47e3-b4f4-9c7d0137d8d9)
+![image](https://github.com/user-attachments/assets/ad6c6e2a-fc6d-45de-b675-de701fd0e587)
 
 ## Minix没有火起来的原因
 Minix的创始人说，MINIX 3没有统治世界是源于他在1992年犯下的一个错误，当时他认为BSD必然会一统天下，因为它是一个更稳定和更成熟的系统，其它操作系统难以与之竞争。因此他的MINIX的重心集中在教育上。四名BSD开发者已经成立了一家公司销售BSD系统，他们甚至还有一个有趣的电话号码1-800-ITS-UNIX。然而他们正因为这个电话号码而惹火上身。美国电话电报公司因电话号码而提起诉讼。官司打了三年才解决。在此期间，BSD陷于停滞，而Linux则借此一飞冲天。他的错误在于没有意识官司竟然持续了如此长的时间，以及BSD会因此受到削弱。如果美国电话电报公司没有起诉，Linux永远不会流行起来，BSD将统治世界。
@@ -42,14 +42,16 @@ Linux内核版本又分为稳定版和开发版，两种版本是相互关联，
 Linux发行版 (也被叫做 GNU/Linux 发行版) 通常包含了包括桌面环境、办公套件、媒体播放器、数据库等应用软件。
 
 目前市面上较知名的发行版有：Ubuntu、RedHat、CentOS、Debian、Fedora、SuSE、OpenSUSE、Arch Linux、SolusOS 等。
-![image](https://github.com/user-attachments/assets/aa8332ea-e802-4f1c-8237-e68d0a51fa6c)
+![image](https://github.com/user-attachments/assets/19b4f19e-99be-41a3-b1b3-089ef2b55be1)
 
 ## 类Unix系统目录结构
 Unix没有盘符这个概念，只有一个根目录/，所有文件都在它下面
-![image](https://github.com/user-attachments/assets/39f9351a-9c5a-47e5-83fe-b772bc97d160)
+![image](https://github.com/user-attachments/assets/b628eddd-0a8a-4a07-bbf7-2dbe45c9d884)
+
 
 ## Linux目录
-![image](https://github.com/user-attachments/assets/1de77b59-729d-44e8-884d-d59364502a4e)
+![image](https://github.com/user-attachments/assets/8b5f63b7-f275-4f08-9298-d247ab860b67)
+
 
 - /：根目录，一般根目录下只存放目录，在Linux下有且只有一个根目录。所有的东西都是从这里开始。当你在终端里输入“/home”，你其实是在告诉电脑，先从/（根目录）开始，再进入到home目录。
 - /bin: /usr/bin: 可执行二进制文件的目录，如常用的命令ls、tar、mv、cat等。
@@ -70,8 +72,17 @@ Unix没有盘符这个概念，只有一个根目录/，所有文件都在它下
 - /var：放置系统执行过程中经常变化的文件，如随时更改的日志文件 /var/log，/var/log/message：所有的登录文件存放目录，/var/spool/mail：邮件存放的目录，/var/run:程序或服务启动后，其PID存放在该目录下。
 
 ## 用户目录
-![image](https://github.com/user-attachments/assets/fa5a767f-d07d-4870-bec1-65120681a704)
+位于/home/user，称之为用户工作目录或家目录,表示方式：
 
+![image](https://github.com/user-attachments/assets/eaf20e58-6f7c-40cc-bc84-8aad1bf6baf6)
+
+从/目录开始描述的路径为绝对路径，如：
+
+![image](https://github.com/user-attachments/assets/8a4aeef9-a92f-4d97-b7d5-5cdf8a90e721)
+
+从当前位置开始描述的路径为相对路径，如：
+
+![image](https://github.com/user-attachments/assets/9b197c74-56a8-4113-9bae-610d33d042cc)
 
 每个目录下都有**.和…**
 
@@ -80,13 +91,14 @@ Unix没有盘符这个概念，只有一个根目录/，所有文件都在它下
 … 表示上一级目录，即父目录
 
 根目录下的.和…都表示当前目录
-![image](https://github.com/user-attachments/assets/91979f5c-f8c1-47e1-887b-2ba8287966dc)
+
+![image](https://github.com/user-attachments/assets/aa159871-f2bb-4709-b756-2367821caedb)
 
 # 命令行基本操作
 ## 命令使用方法
 Linux命令格式：
 
-![image](https://github.com/user-attachments/assets/eea711de-ff3e-4b04-a0e4-584dd3f27201)
+![image](https://github.com/user-attachments/assets/8864d76c-3bb6-4d72-811b-cbe6f6a19543)
 
 
 command: 命令名； [-options]：选项,可用来对命令进行控制，也可以省略，[]代表可选 parameter1 …：传给命令的参数：可以是零个一个或多个
@@ -125,9 +137,10 @@ man中各个section意义如下：
 man是按照手册的章节号的顺序进行搜索的。
 
 man设置了如下的功能键：
-![image](https://github.com/user-attachments/assets/781241dc-869d-482e-bd87-6e6b926bb66f)
 
-![image](https://github.com/user-attachments/assets/c46aaf32-4f0c-4200-970d-4a622bf8c085)
+![image](https://github.com/user-attachments/assets/6038bc91-b7fa-472b-82a1-ea9e75b22b63)
+
+![image](https://github.com/user-attachments/assets/2806ce46-92be-4454-9831-5aa21a6ff20e)
 
 注意：实际上，我们不用指定第几个章节也用查看，如，man ls
 
@@ -142,7 +155,7 @@ history保留了最近执行的命令记录，默认可以保留1000。
 
 常见用法：
 
-![image](https://github.com/user-attachments/assets/ffe65c2b-8bbc-426b-a4fd-12f6bdb58df1)
+![image](https://github.com/user-attachments/assets/68f13927-69d7-4ebc-b861-d34b7ab11070)
 
 ## 命令行中的ctrl组合键
 - Ctrl+c 结束正在运行的程序
@@ -179,25 +192,29 @@ history保留了最近执行的命令记录，默认可以保留1000。
 Linux文件或者目录名称最长可以有265个字符，“.”代表当前目录，“…”代表上一级目录，以“.”开头的文件为隐藏文件，需要用 -a 参数才能显示。
 
 ls常用参数：
-![image](https://github.com/user-attachments/assets/086a1083-e3f6-4dd8-a573-e6b14fae4bc6)
 
-![image](https://github.com/user-attachments/assets/35b5c47f-d0fb-4335-8e63-532a43268734)
+![image](https://github.com/user-attachments/assets/e65b56e4-f459-44ad-b7cc-1065d6e5d320)
+
+![image](https://github.com/user-attachments/assets/fd7c6ad1-b51e-40fe-a5a2-2905d4280f4d)
 
 列出的信息的含义：
 
-![image](https://github.com/user-attachments/assets/fb5821c6-385f-4c89-80d1-b911a8cad522)
+![image](https://github.com/user-attachments/assets/e257a49b-549e-418f-8f26-fda12ddf5196)
+
 
 ls支持通配符：
 
-![image](https://github.com/user-attachments/assets/090bab9a-0d89-4e4b-bac7-11c5ce6ce7dd)
+![image](https://github.com/user-attachments/assets/71f3b6b1-5bb0-4ce9-b4a9-148b90727c3e)
 
 
 ### 显示inode的内容：stat
-![image](https://github.com/user-attachments/assets/f16eb6e9-15c3-4870-ab95-589b508eb4ca)
+![image](https://github.com/user-attachments/assets/c9db5078-68e0-4911-8f24-6cb43a58e95d)
+
 
 查看 testfile 文件的inode内容内容，可以用以下命令：
 
-![image](https://github.com/user-attachments/assets/3cff6fa1-e0c4-401c-a8ee-89626d55ee54)
+![image](https://github.com/user-attachments/assets/a7492c87-2bfb-43b5-ab62-9dc80b363749)
+
 
 ### 文件访问权限
 用户能够控制一个给定的文件或目录的访问程度，一个文件或目录可能有读、写及执行权限：
@@ -209,7 +226,8 @@ ls支持通配符：
 通常，Unix/Linux系统只允许文件的属主(所有者)或超级用户改变文件的读写权限。
 
 示例：
-![image](https://github.com/user-attachments/assets/625649bf-7379-41fe-9717-7e5bce8ab479)
+
+![image](https://github.com/user-attachments/assets/33ccac74-77ac-4b64-8376-ec005021595f)
 
 第1个字母代表文件的类型：
 
@@ -226,11 +244,13 @@ ls支持通配符：
 chmod 修改文件权限有两种使用格式：字母法与数字法。
 
 字母法：chmod u/g/o/a +/-/= rwx 文件
-![image](https://github.com/user-attachments/assets/abfbd605-2e63-40d6-a765-dc16a8e94106)
+
+![image](https://github.com/user-attachments/assets/bffb9be0-bf7d-431f-a5f7-b202f1df59bd)
+
 
 数字法：“rwx” 这些权限也可以用数字来代替
 
-![image](https://github.com/user-attachments/assets/30bb6404-8a98-4336-b236-f80987747a54)
+![image](https://github.com/user-attachments/assets/c2b13aa1-a864-416e-9824-79aa47b50e19)
 
 如执行：chmod u=rwx,g=rx,o=r filename 就等同于：chmod u=7,g=5,o=4 filename
 
@@ -245,10 +265,12 @@ chmod 777 file：所有用户拥有读、写、执行权限
 注意：如果想递归所有目录加上相同权限，需要加上参数“ -R ”。 如：chmod 777 test/ -R 递归 test 目录下所有文件加 777 权限
 
 ### 修改文件所有者：chown
-![image](https://github.com/user-attachments/assets/fb13c781-6edc-43e4-9c60-2a7037bd361a)
+![image](https://github.com/user-attachments/assets/ab5308e7-85bd-4d5b-97e9-32af1ee83031)
+
 
 ### 修改文件所属组：chgrp
-![image](https://github.com/user-attachments/assets/38c96e6d-8c7b-4e87-ac96-efefc0b8f4ab)
+![image](https://github.com/user-attachments/assets/65e566f9-b69b-4f91-a4d6-2987f4f0dce9)
+
 
 ## 文件内容查看
 Linux系统中使用以下命令来查看文件的内容：
@@ -263,7 +285,8 @@ Linux系统中使用以下命令来查看文件的内容：
 
 ### 基本显示：cat、tac
 语法：
-![image](https://github.com/user-attachments/assets/6239ea12-6226-4cf6-aa46-afc475c4b1ba)
+
+![image](https://github.com/user-attachments/assets/b894b3de-3671-4b05-9e72-5a4090b32867)
 
 选项与参数：
 
@@ -274,17 +297,19 @@ Linux系统中使用以下命令来查看文件的内容：
 - -b ：列出行号，空白行不标行号
 - -n ：列出行号，连同空白行也会有行号
 
-![image](https://github.com/user-attachments/assets/54d05705-9a11-43de-bf58-5347c83badcf)
+![image](https://github.com/user-attachments/assets/bb7d62b6-8a80-439c-b098-a8c4387b92dc)
 
 tac与cat命令刚好相反，文件内容从最后一行开始显示，可以看出 tac 是 cat 的倒着写！如：
 
-![image](https://github.com/user-attachments/assets/21d5a058-a707-4978-89ab-2c4f2465729c)
+![image](https://github.com/user-attachments/assets/0090223b-a5fc-41b3-a7ad-119b0928626b)
+
 
 ### 显示行号：nl
 
 语法：
 
-![image](https://github.com/user-attachments/assets/bfafa76a-adac-4a97-9269-fc8a46a7f0ac)
+![image](https://github.com/user-attachments/assets/3cec30ad-78d5-4141-a5f4-0542182f5ddf)
+
 
 选项与参数：
 
@@ -297,11 +322,13 @@ tac与cat命令刚好相反，文件内容从最后一行开始显示，可以�
 - -n rz ：行号在自己栏位的最右方显示，且加 0 ；
 - -w ：行号栏位的占用的位数。
 
-![image](https://github.com/user-attachments/assets/07bf5394-5ae6-4ff9-abcc-1bd6fd52de98)
+![image](https://github.com/user-attachments/assets/ec63187a-020a-454a-948b-e6f3ad7bd168)
+
 
 分屏显示：more、less
 
-![image](https://github.com/user-attachments/assets/4eee9f62-5739-4a23-9e94-af28b34517cf)
+![image](https://github.com/user-attachments/assets/261decd4-ae7c-450b-bd4b-c761329b60da)
+
 
 more运行时可以输入的命令有：
 
@@ -312,7 +339,7 @@ more运行时可以输入的命令有：
 - q ：代表立刻离开 more ，不再显示该文件内容。
 - b 或 [ctrl]-b ：代表往回翻页，不过这动作只对文件有用，对管线无用。
 
-![image](https://github.com/user-attachments/assets/9d715173-ee9c-49ad-8bdd-06fc772371e6)
+![image](https://github.com/user-attachments/assets/452c9a91-1235-4d22-8a3a-28a7c2a6aa15)
 
 less运行时可以输入的命令有：
 
@@ -329,29 +356,34 @@ less运行时可以输入的命令有：
 head取出文件前面几行
 
 语法：
-![image](https://github.com/user-attachments/assets/764d2f5e-e285-4942-882e-990e2e8c5a85)
+
+![image](https://github.com/user-attachments/assets/237cfcb5-1192-4044-9248-4f9bf395ec42)
+
 
 选项与参数：
 
 - -n ：后面接数字，代表显示几行的意思
 
-![image](https://github.com/user-attachments/assets/9de6601f-65b2-4249-a78b-10d28c1db841)
+![image](https://github.com/user-attachments/assets/3b7c95b6-db0d-4447-ad5c-4505011a6099)
 
 默认的情况中，显示前面 10 行！若要显示前 20 行，就得要这样：
 
-![image](https://github.com/user-attachments/assets/81028e7a-57ed-4b12-920d-129d22eadd2e)
+![image](https://github.com/user-attachments/assets/3df175cc-17dc-44b2-9f72-9b324c994745)
+
 
 tail取出文件后面几行
 
 语法：
-![image](https://github.com/user-attachments/assets/3c248c26-e4f5-4df9-87f8-e16ca4059179)
+
+![image](https://github.com/user-attachments/assets/76615980-4ac2-4c23-ae9e-d8a44dcbc4ab)
+
 
 选项与参数：
 
 - -n ：后面接数字，代表显示几行的意思
 - -f ：表示持续侦测后面所接的档名，要等到按下[ctrl]-c才会结束tail的侦测
 
-![image](https://github.com/user-attachments/assets/dfcbf72d-a615-4d15-a32b-510452f3306e)
+![image](https://github.com/user-attachments/assets/77d51cba-c85e-4b8b-9276-8b8c4bd1fad7)
 
 
 ## 文件管理
@@ -366,7 +398,8 @@ tail取出文件后面几行
 管道：一个命令的输出可以通过管道做为另一个命令的输入。
 
 “ | ”的左右分为两端，从左端写入到右端。
-![image](https://github.com/user-attachments/assets/4f026fe1-d3c0-4eb1-9fbb-1bf394959775)
+
+![image](https://github.com/user-attachments/assets/c8806610-147d-44df-a72d-5151ad1320d7)
 
 ### 清屏：clear
 clear作用为清除终端上的显示(类似于DOS的cls清屏功能)，快捷键：Ctrl + l ( “l” 为字母 )。
@@ -375,16 +408,21 @@ clear作用为清除终端上的显示(类似于DOS的cls清屏功能)，快捷�
 Linux所有的目录和文件名大小写敏感
 
 cd后面可跟绝对路径，也可以跟相对路径。如果省略目录，则默认切换到当前用户的主目录。
-![image](https://github.com/user-attachments/assets/6c862760-f23a-4242-b189-d111fcc40db0)
+
+![image](https://github.com/user-attachments/assets/aaac8b69-04db-40ea-8507-6c4697e57948)
+
 
 ### 显示当前路径：pwd
-![image](https://github.com/user-attachments/assets/58009269-36f0-4764-b94a-ee164e589e20)
+
+![image](https://github.com/user-attachments/assets/53a9bfd5-7c41-4806-92ff-6319fdd32bb4)
+
 
 选项与参数：
 
 - -P ：显示出确实的路径，而非使用连结 (link) 路径。
 
-![image](https://github.com/user-attachments/assets/4589348b-0565-455e-abcc-ce3659383c63)
+![image](https://github.com/user-attachments/assets/f66b0f56-9e2d-43b8-9696-6ad2ca8cc0e4)
+
 
 ### 创建目录：mkdir
 mkdir可以创建一个新的目录。
@@ -392,7 +430,9 @@ mkdir可以创建一个新的目录。
 注意：新建目录的名称不能与当前目录中已有的目录或文件同名，并且目录创建者必须对当前目录具有写权限。
 
 语法：
-![image](https://github.com/user-attachments/assets/3cdc8297-e6d3-4cd2-9c31-91044575061b)
+
+![image](https://github.com/user-attachments/assets/a69dacdd-74b4-4217-9aa6-2e3b96efeb91)
+
 
 选项与参数：
 
@@ -400,16 +440,21 @@ mkdir可以创建一个新的目录。
 - -p ：递归创建所需要的目录
 
 实例：-p递归创建目录：
-![image](https://github.com/user-attachments/assets/6e93c958-c4bb-42d3-8e5e-057f5b3a7c81)
+
+![image](https://github.com/user-attachments/assets/d266bfa4-bc77-4f95-a14f-ae3b8bb002ab)
 
 mkdir创建的目录权限默认根据umask得到，而-m参数可以指定被创建目录的权限：
-![image](https://github.com/user-attachments/assets/d82773d2-b6fc-4133-b0a2-1c741de2961c)
+
+![image](https://github.com/user-attachments/assets/8624fc59-c65d-4154-8d92-afd476f82564)
+
 
 ### 删除文件：rm
 可通过rm删除文件或目录。使用rm命令要小心，因为文件删除后不能恢复。为了防止文件误删，可以在rm后使用-i参数以逐个确认要删除的文件。
 
 常用参数及含义如下表所示：
-![image](https://github.com/user-attachments/assets/045106fb-54b5-424a-9aa2-1ca74ce3c714)
+
+![image](https://github.com/user-attachments/assets/25187e8a-9705-4339-89bd-f098271bef73)
+
 
 ### 建立链接文件：ln
 软链接：ln -s 源文件 链接文件
@@ -425,34 +470,38 @@ Linux系统中grep命令是一种强大的文本搜索工具，grep允许对文�
 
 grep一般格式为：
 
-![image](https://github.com/user-attachments/assets/ad9abb8c-7714-4945-b29a-47cbea94b457)
+![image](https://github.com/user-attachments/assets/df830730-601a-4810-9f7f-9eff65a5e3f8)
 
 在grep命令中输入字符串参数时，最好引号或双引号括起来。例如：grep 'a' 1.txt。
 
 在当前目录中，查找前缀有test字样的文件中包含 test 字符串的文件，并打印出该字符串的行。此时，可以使用如下命令：
 
-![image](https://github.com/user-attachments/assets/ea262b27-c490-47a5-8302-cf674c80003b)
+![image](https://github.com/user-attachments/assets/de07afdc-c57e-4eee-852d-30602d86eb52)
+
 
 以递归的方式查找符合条件的文件。例如，查找指定目录/etc/acpi 及其子目录（如果存在子目录的话）下所有文件中包含字符串"update"的文件，并打印出该字符串所在行的内容，使用的命令为：
 
-![image](https://github.com/user-attachments/assets/07d3dee5-0740-463e-b8c3-abd12380e9c3)
+![image](https://github.com/user-attachments/assets/1550cb4c-c141-41e7-9495-7ee6f76a1ddd)
+
 
 反向查找。前面各个例子是查找并打印出符合条件的行，通过"-v"参数可以打印出不符合条件行的内容。
 
 查找文件名中包含 test 的文件中不包含test 的行，此时，使用的命令为：
 
-![image](https://github.com/user-attachments/assets/c41aadac-59b2-4d3e-98be-793e2092f630)
+![image](https://github.com/user-attachments/assets/a9b0714a-122c-4022-ae96-c0f4936a474e)
+
 
 ### 查找文件：find
 常用用法：
 
-![image](https://github.com/user-attachments/assets/ae57f803-e378-4ebd-8c14-f26b63f6620c)
+![image](https://github.com/user-attachments/assets/811a7fd2-50d8-4ca0-ad98-5feb160ed995)
 
 Linux find命令用来在指定目录下查找文件。任何位于参数之前的字符串都将被视为欲查找的目录名。如果使用该命令时，不设置任何参数，则find命令将在当前目录下查找子目录与文件。并且将查找到的子目录和文件全部进行显示。
 
 语法：
 
-![image](https://github.com/user-attachments/assets/4ed54a85-e35b-4501-ac0d-a57da3da4b8d)
+![image](https://github.com/user-attachments/assets/ebeb763c-6fe4-431c-8686-51fa7054ad4a)
+
 
 常用参数说明 :
 
@@ -481,14 +530,15 @@ f - 普通文件
 
 find实例：
 
-![image](https://github.com/user-attachments/assets/b0b06287-b67a-47f9-93c6-ba68124cab10)
+![image](https://github.com/user-attachments/assets/03c01562-c9cf-4c3d-9c39-f1d0512c04ee)
+
 
 ### 拷贝文件：cp
 cp命令的功能是将给出的文件或目录复制到另一个文件或目录中，相当于DOS下的copy命令。
 
 常用选项说明：
 
-![image](https://github.com/user-attachments/assets/61df65e2-a4ab-4e34-8797-6f657e667280)
+![image](https://github.com/user-attachments/assets/3372a325-07a6-427f-95d8-4685242c4f49)
 
 cp vim_configure/ code/ -ivr 把文件夹 vim_configure 拷贝到 code 目录里。
 
@@ -497,7 +547,8 @@ mv命令用来移动文件或目录，也可以给文件或目录重命名。
 
 常用选项说明：
 
-![image](https://github.com/user-attachments/assets/c4534ac2-66cf-412d-8f6e-cec5ddd979b0)
+![image](https://github.com/user-attachments/assets/b249e284-8b8a-48c0-a612-034a2fff1fcd)
+
 
 ### 归档管理：tar
 此命令可以把一系列文件归档到一个大文件中，也可以把档案文件解开以恢复数据。
@@ -508,22 +559,27 @@ tar命令参数很特殊，其参数前面可以使用“-”，也可以不使�
 
 常用参数：
 
-![image](https://github.com/user-attachments/assets/cec9b6b9-5c8d-41ee-9c84-7b95a765fbad)
+![image](https://github.com/user-attachments/assets/af052ff4-2d31-42cf-ba6b-eab5030df790)
+
 
 注意：除了f需要放在参数的最后，其它参数的顺序任意。
 
-![image](https://github.com/user-attachments/assets/4666f457-83e6-447e-bc13-c2038503619f)
+![image](https://github.com/user-attachments/assets/45d9539d-09cd-44aa-be5a-afdfefb56f4a)
+
 
 ### 文件压缩解压：gzip、bzip2
 tar与gzip命令结合使用实现文件打包、压缩。 tar只负责打包文件，但不压缩，用gzip压缩tar打包后的文件，其扩展名一般用xxxx.tar.gz。
 
 gzip使用格式如下：
 
-![image](https://github.com/user-attachments/assets/09dbe677-faf0-44b6-b17e-7fe1d435e1c9)
+![image](https://github.com/user-attachments/assets/b6b8df0c-f9a8-475a-b580-104f230e7178)
+
 
 常用选项：
 
-![image](https://github.com/user-attachments/assets/559bc05a-efb6-4da8-97a8-b0c312fa8b98)
+![image](https://github.com/user-attachments/assets/8b3b35fd-8523-429a-93e7-7231dde101da)
+
+![image](https://github.com/user-attachments/assets/b267bfb0-2994-4363-b239-567b80974352)
 
 tar命令中-z选项可以调用gzip实现了一个压缩的功能，实行一个先打包后压缩的过程。
 
@@ -531,17 +587,20 @@ tar命令中-z选项可以调用gzip实现了一个压缩的功能，实行一�
 
 例如： tar zcvf test.tar.gz 1.c 2.c 3.c 4.c把 1.c 2.c 3.c 4.c 压缩成 test.tar.gz
 
-![image](https://github.com/user-attachments/assets/8f6fd4f8-093c-42c1-8b1e-f8d47e4006b8)
+![image](https://github.com/user-attachments/assets/fe32efcf-c00b-46d7-a3d3-6923a439fb4d)
+
 
 解压用法： tar zxvf 压缩包包名
 
 例如：
 
-![image](https://github.com/user-attachments/assets/bc334122-b198-4006-8569-9e97e3ed592e)
+![image](https://github.com/user-attachments/assets/c823abe7-bda0-403b-86cf-6269d143dcd2)
+
 
 解压到指定目录：-C （解压时可以不指定-z选项）
 
-![image](https://github.com/user-attachments/assets/33b47bdd-d2f3-468f-bb44-7c5d056e5530)
+![image](https://github.com/user-attachments/assets/4241bbae-e7e8-4b59-baf7-9ae8cba7c667)
+
 
 bzip2命令跟gzip用法类似
 
@@ -556,11 +615,13 @@ bzip2命令跟gzip用法类似
 
 解压文件：unzip -d 解压后目录文件 压缩文件
 
-![image](https://github.com/user-attachments/assets/74257f1d-bc75-4715-b615-47e5a8451054)
+![image](https://github.com/user-attachments/assets/0450f939-8a3a-48c7-9846-c0285cc3cdbb)
+
 
 ### 查看命令位置：which
 
-![image](https://github.com/user-attachments/assets/d0ae9c8c-e7c6-422c-a602-bec6fb78f483)
+![image](https://github.com/user-attachments/assets/e5ece9f3-0b92-445d-841f-5e784bc06be1)
+
 
 
 ## 用户和用户组管理
@@ -577,14 +638,15 @@ Unix/Linux系统中的root账号通常用于系统的维护和管理，它对Uni
 ### 查看当前用户：whoami
 查看当前系统当前账号的用户名。可通过cat /etc/passwd查看系统用户信息。
 
-![image](https://github.com/user-attachments/assets/b89cc6d4-6fa1-45f9-8bb6-41e70f12189c)
+![image](https://github.com/user-attachments/assets/4acf62ab-34d9-4109-a14c-84912600147e)
+
 
 ### 查看登录用户：who
 who命令用于查看当前所有登录系统的用户信息。
 
 常用选项：
 
-![image](https://github.com/user-attachments/assets/6900eb6b-b1cf-4294-9b2d-a2ea2bd687e5)
+![image](https://github.com/user-attachments/assets/d789b59e-ed7b-4fd7-9d90-983657efe547)
 
 ### 退出登录账户： exit
 如果是图形界面，退出当前终端；
@@ -597,7 +659,9 @@ who命令用于查看当前所有登录系统的用户信息。
 在Unix/Linux中添加用户账号可以使用adduser或useradd命令，因为adduser命令是指向useradd命令的一个链接，因此，这两个命令的使用格式完全一样。
 
 useradd命令的使用格式如下： useradd [参数] 新建用户账号
-![image](https://github.com/user-attachments/assets/c0218493-afc1-4158-85dc-22c65c4d01c4)
+
+![image](https://github.com/user-attachments/assets/29669c53-78f6-4c76-9f4d-67eb7e759e3e)
+
 
 相关说明：
 
@@ -607,44 +671,55 @@ useradd命令的使用格式如下： useradd [参数] 新建用户账号
 
 若创建用户时未指定家目录，后期可通过usermod -d /home/abc abc指定
 
-![image](https://github.com/user-attachments/assets/9d9f1a2a-3c24-4e4f-af9e-de2c6e0f6ffe)
+![image](https://github.com/user-attachments/assets/9d44343c-9836-4167-b08a-364ef6af98d1)
+
 
 ### 修改用户：usermod
-![image](https://github.com/user-attachments/assets/5f621a08-ff71-4738-a145-529f2a77afc4)
+![image](https://github.com/user-attachments/assets/ea9becbe-20be-4005-b376-4860011de519)
+
 
 ### 设置用户密码：passwd
-![image](https://github.com/user-attachments/assets/0f2c9ea6-a3c3-47e6-84cf-c84fca92af96)
+![image](https://github.com/user-attachments/assets/a8f7f440-4f27-498e-bab9-ef02ecb98f89)
+
 
 ### 删除用户：userdel
-![image](https://github.com/user-attachments/assets/ca46c5ad-54b9-4b4e-b17d-2afcd6b8046c)
+![image](https://github.com/user-attachments/assets/7749a8b8-c60a-4eb4-bccd-c289c7042a98)
 
 ### 切换用户：su
 su后面可以加“-”会将当前的工作目录自动转换到切换后的用户主目录.
-![image](https://github.com/user-attachments/assets/cee93a05-6b79-45f9-a740-ed3cc50e356e)
+
+![image](https://github.com/user-attachments/assets/e28f01b9-c921-4b11-b168-7feb6f0e2ca7)
+
 
 注意：对于ubuntu平台，只能通过sudo su进入root账号。
 
 sudo允许系统管理员让普通用户执行一些或者全部的root命令的一个工具。
 
 ### 以root身份执行指令：sudo
-![image](https://github.com/user-attachments/assets/cb3b423d-256c-4fa3-95e0-a5988413f9ab)
+![image](https://github.com/user-attachments/assets/37d3f24b-1719-4d07-871e-73cf6d7202bd)
+
 
 ### 添加、删除组账号：groupadd、groupdel
 groupadd 新建组账号 groupdel 组账号 cat /etc/group 查看用户组
-![image](https://github.com/user-attachments/assets/0e408abc-d756-41aa-b7af-374a56c82891)
+
+![image](https://github.com/user-attachments/assets/f2a5a804-0bfe-4427-bcda-f28fca161647)
+
 
 ### 用户组管理：groupmod
-![image](https://github.com/user-attachments/assets/4b37f217-bcf8-46df-b2ac-fa51bce87591)
+![image](https://github.com/user-attachments/assets/9607be49-3efe-405f-9ed8-ebb024dbbff7)
 
 
 ## 系统管理
 ### 查看当前日历：cal
 cal命令用于查看当前日历，-y显示整年日历：
-![image](https://github.com/user-attachments/assets/87cb544b-0723-47bb-a1b1-2dde3451c5ea)
+
+![image](https://github.com/user-attachments/assets/0d93e323-6b8f-47c2-833b-4acf931e59cd)
+
 
 ### 显示或设置时间：date
 设置时间格式（需要管理员权限）：
-![image](https://github.com/user-attachments/assets/dd503fe9-3fbf-476e-a0d2-0815c671dff7)
+
+![image](https://github.com/user-attachments/assets/6c1fc749-3623-4da1-8995-d4e4815160f1)
 
 MM为月，DD为天，hh为小时，mm为分钟；CC为年前两位，YY为年的后两位，ss为秒。
 
@@ -652,7 +727,8 @@ MM为月，DD为天，hh为小时，mm为分钟；CC为年前两位，YY为年�
 
 显示时间格式（date ‘+%y,%m,%d,%H,%M,%S’）：
 
-![image](https://github.com/user-attachments/assets/4fcbae80-11ec-4ae4-b052-70b81d50ca12)
+![image](https://github.com/user-attachments/assets/aa0b166c-c2aa-4b50-80a7-840cf03a9210)
+
 
 ### 查看网络状态：netstat
 netstat命令用于显示网络状态。
@@ -661,7 +737,8 @@ netstat命令用于显示网络状态。
 
 语法：
 
-![image](https://github.com/user-attachments/assets/fed7a5e8-c210-4d48-a2b5-3fbf3850c5f9)
+![image](https://github.com/user-attachments/assets/019b3f94-5230-4b29-bdef-52a7da09289c)
+
 
 参数说明：
 
@@ -692,7 +769,8 @@ netstat命令用于显示网络状态。
 
 常用：
 
- ![image](https://github.com/user-attachments/assets/0e3c055a-619b-4a08-bbc0-b0dc8154e35c)
+![image](https://github.com/user-attachments/assets/bde5df16-01eb-4765-9d37-eaf4b8a258f8)
+
 
 ### 查看进程信息：ps
 进程是一个具有一定独立功能的程序，它是操作系统动态执行的基本单元。
@@ -711,7 +789,8 @@ ps命令选项：
 - ps u 以用户为主的格式来显示程序状况。
 - ps x 显示所有程序，不以终端机来区分。
 
-![image](https://github.com/user-attachments/assets/36575068-8aed-4884-b989-134ad23e712d)
+![image](https://github.com/user-attachments/assets/df3c43c4-889a-4346-b377-de4fe492a86b)
+
 
 常见用法：
 
@@ -722,62 +801,80 @@ ps命令选项：
 
 实例：
 
-![image](https://github.com/user-attachments/assets/2ea22ea6-2e94-4434-b364-2054cedda59f)
+![image](https://github.com/user-attachments/assets/95ef183d-a0ed-481d-8ba9-b7343018267b)
+
 
 显示指定用户信息：
 
-![image](https://github.com/user-attachments/assets/d6bf03a6-5b2c-4083-9488-07ab04081852)
+![image](https://github.com/user-attachments/assets/b9bba7bf-b469-417c-a0aa-b582c880289a)
+
 
 显示所有进程信息，连同命令行
 
-![image](https://github.com/user-attachments/assets/37c92143-e570-477b-ba6d-d20b5b2d6f17)
+![image](https://github.com/user-attachments/assets/57ad61f9-2dc1-41b7-8148-5e52f75f2c07)
+
 
 ### 以树状图显示进程关系：pstree
-![image](https://github.com/user-attachments/assets/99862706-47dd-4e0b-bc70-07744b0b499a)
+![image](https://github.com/user-attachments/assets/943e49e3-b5ac-455d-99ce-ede12aff67d4)
+
+
 
 ### 动态显示进程：top
 top命令用来动态显示运行中的进程。top命令能够在运行后，在指定的时间间隔更新显示信息。-d参数可以指定显示信息更新的时间间隔。
 
 在top命令执行后，可以按下按键得到对显示的结果进行排序：
 
-![image](https://github.com/user-attachments/assets/29862522-a7b1-44a9-8353-1d1ece2c790c)
+![image](https://github.com/user-attachments/assets/11773fff-9555-4d8b-8bde-605e091f1104)
+
+![image](https://github.com/user-attachments/assets/a9dd6744-9000-4803-a645-37908d6d324d)
 
 更高级的命令是htop，但需要安装：
 
-![image](https://github.com/user-attachments/assets/d48a2047-4db8-4b82-b9b9-c5c59fe67187)
+![image](https://github.com/user-attachments/assets/c16500d6-f784-4e87-97d4-fed5790d1b6d)
+
 
 ### 终止进程：kill
 kill命令指定进程号的进程，需要配合 ps 使用。
 
 使用格式：
 
-![image](https://github.com/user-attachments/assets/20a31095-5099-41f4-bfee-6f8c72c394d3)
+![image](https://github.com/user-attachments/assets/24998b81-1934-421f-bbdb-d6fc10641848)
+
 
 信号值从0到15，其中9为绝对终止，可以处理一般信号无法终止的进程。
 
 ### 关机重启：reboot、shutdown、init
-![image](https://github.com/user-attachments/assets/d57f83cb-1703-4bbd-9270-93a834f526b9)
+![image](https://github.com/user-attachments/assets/d3811c52-7196-4920-bef2-0e46e7dd554d)
+
 
 ### 检测磁盘空间：df
 df命令用于检测文件系统的磁盘空间占用和空余情况，可以显示所有文件系统对节点和磁盘块的使用情况。
-![image](https://github.com/user-attachments/assets/c4d465ae-fb16-4375-909a-aba0576b8ae7)
+
+![image](https://github.com/user-attachments/assets/913685cb-ade1-46dc-b006-89e460d5c0df)
+
+![image](https://github.com/user-attachments/assets/895487c7-c949-4170-b0b2-afcf65e37b18)
 
 ### 检测目录所占磁盘空间：du
 du命令用于统计目录或文件所占磁盘空间的大小，该命令的执行结果与df类似，du更侧重于磁盘的使用状况。
 
 du命令的使用格式如下： du [选项] 目录或文件名
-![image](https://github.com/user-attachments/assets/bbf3d007-727a-48ef-bd19-34bba8426760)
+![image](https://github.com/user-attachments/assets/b00bc6b3-5b1a-4891-8292-5f3ec08c5ed2)
+
+![image](https://github.com/user-attachments/assets/d6b465a6-0f92-4940-b2ce-b5d115e2b322)
 
 ### 查看或配置网卡信息：ifconfig
 ifconfig显示所有网卡的信息：
-![image](https://github.com/user-attachments/assets/c0e1f910-48f4-4b1b-a5f9-5e5a6e3679fb)
+
+![image](https://github.com/user-attachments/assets/a68e82b2-e814-4e4a-a6d9-187fec6c4c85)
+
 
 修改ip:
 
-![image](https://github.com/user-attachments/assets/b86d9f2c-ea0a-40ab-b514-ef72c74df7b6)
+![image](https://github.com/user-attachments/assets/8fd009ec-6e06-45c5-afa0-c3b196a86f62)
+
 
 ### 测试远程主机连通性：ping
-![image](https://github.com/user-attachments/assets/a9ce1fe9-6654-468a-8d0e-ea7c25325784)
+
 
 
 ## Linux 磁盘管理
