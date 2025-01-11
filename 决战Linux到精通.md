@@ -875,7 +875,26 @@ ifconfig显示所有网卡的信息：
 
 ### 测试远程主机连通性：ping
 
+```txt
+python@ubuntu:~$ ping 192.168.40.1
+PING 192.168.40.1 (192.168.40.1) 56(84) bytes of data.
+64 bytes from 192.168.40.1: icmp_seq=1 ttl=64 time=0.699 ms
+64 bytes from 192.168.40.1: icmp_seq=2 ttl=64 time=0.372 ms
+^C
+--- 192.168.40.1 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 0.372/0.535/0.699/0.165 ms
+python@ubuntu:~$ ping 192.168.40.1 -c 3
+PING 192.168.40.1 (192.168.40.1) 56(84) bytes of data.
+64 bytes from 192.168.40.1: icmp_seq=1 ttl=64 time=0.409 ms
+64 bytes from 192.168.40.1: icmp_seq=2 ttl=64 time=0.367 ms
+64 bytes from 192.168.40.1: icmp_seq=3 ttl=64 time=0.373 ms
 
+--- 192.168.40.1 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2000ms
+rtt min/avg/max/mdev = 0.367/0.383/0.409/0.018 ms
+python@ubuntu:~$ 
+```
 
 ## Linux 磁盘管理
 Linux磁盘管理常用三个命令为df、du和fdisk。
@@ -889,7 +908,9 @@ fdisk：用于磁盘分区
 
 语法：
 
-![image](https://github.com/user-attachments/assets/8975c5e0-7bea-40ca-b3b2-04d02a250b33)
+```txt
+df [-ahikHTm] [目录或文件名]
+```
 
 选项与参数：
 
