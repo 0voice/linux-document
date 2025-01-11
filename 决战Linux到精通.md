@@ -922,18 +922,41 @@ df [-ahikHTm] [目录或文件名]
 - -T ：显示文件系统类型, 连同该 partition 的 filesystem 名称 (例如 ext3) 也列出；
 - -i ：不用硬盘容量，而以 inode 的数量来显示
 
-![image](https://github.com/user-attachments/assets/b7163541-e419-4db7-a15f-eb7d05ea299e)
+```txt
+[root@VM_0_9_centos ~]# df -hT
+Filesystem     Type      Size  Used Avail Use% Mounted on
+/dev/vda1      ext4       50G  4.9G   42G  11% /
+devtmpfs       devtmpfs  909M     0  909M   0% /dev
+tmpfs          tmpfs     920M   24K  920M   1% /dev/shm
+tmpfs          tmpfs     920M  496K  919M   1% /run
+tmpfs          tmpfs     920M     0  920M   0% /sys/fs/cgroup
+tmpfs          tmpfs     184M     0  184M   0% /run/user/0
+```
 
 将系统内的所有特殊文件格式及名称都列出来
 
-![image](https://github.com/user-attachments/assets/11d48db3-b520-4ce7-aa2b-05e071e4aadd)
+```txt
+[root@www ~]# df -aT
+Filesystem    Type 1K-blocks    Used Available Use% Mounted on
+/dev/hdc2     ext3   9920624 3823112   5585444  41% /
+proc          proc         0       0         0   -  /proc
+sysfs        sysfs         0       0         0   -  /sys
+devpts      devpts         0       0         0   -  /dev/pts
+/dev/hdc3     ext3   4956316  141376   4559108   4% /home
+/dev/hdc1     ext3    101086   11126     84741  12% /boot
+tmpfs        tmpfs    371332       0    371332   0% /dev/shm
+none   binfmt_misc         0       0         0   -  /proc/sys/fs/binfmt_misc
+sunrpc  rpc_pipefs         0       0         0   -  /var/lib/nfs/rpc_pipefs
+```
 
 ### du
 du命令是对文件和目录磁盘使用的空间的查看.
 
 语法：
 
-![image](https://github.com/user-attachments/assets/5f70cf49-bf52-49c0-ad33-144d16ddaa9f)
+```txt
+du [-ahskm] 文件或目录名称
+```
 
 选项与参数：
 
@@ -946,24 +969,53 @@ du命令是对文件和目录磁盘使用的空间的查看.
 
 du没有加任何选项时，只列出当前目录下的所有文件夹容量（包括隐藏文件夹）:
 
-![image](https://github.com/user-attachments/assets/92c4ae7d-961a-4800-b0b3-1f60563f36f1)
+```txt
+[root@www ~]# du
+8       ./test4     <==每个目录都会列出来
+8       ./test2
+....中间省略....
+12      ./.gconfd   <==包括隐藏文件的目录
+220     .           <==这个目录(.)所占用的总量
+```
 
 直接输入 du 没有加任何选项时，则 du 会分析当前所在目录的文件与目录所占用的硬盘空间。
 
 加-a选项才显示文件的容量：
 
-![image](https://github.com/user-attachments/assets/382dfe8f-914f-43b2-b37b-467470bb4b17)
+```txt
+[root@www ~]# du -a
+12      ./install.log.syslog   <==有文件的列表了
+8       ./.bash_logout
+8       ./test4
+8       ./test2
+....中间省略....
+12      ./.gconfd
+220     .
+```
 
 检查根目录底下每个目录所占用的容量
 
-![image](https://github.com/user-attachments/assets/c38bce2c-b6f1-4bd8-99d9-a1fac5bd5b13)
+```txt
+[root@www ~]# du -sh /*
+0       /bin
+108M    /boot
+4.0K    /data
+.....中间省略....
+0       /proc
+.....中间省略....
+40K     /tmp
+2.4G    /usr
+2.4G    /var
+```
 
 ### fdisk
 fdisk 是 Linux 的磁盘分区表操作工具。
 
 语法：
 
-![image](https://github.com/user-attachments/assets/4e43b3da-175e-4b1a-9c4a-130258235797)
+```txt
+fdisk [-l] 装置名称
+```
 
 选项与参数：
 
@@ -971,19 +1023,92 @@ fdisk 是 Linux 的磁盘分区表操作工具。
 
 列出所有分区信息：
 
-![image](https://github.com/user-attachments/assets/0e02db53-99a8-475e-bc77-d3bc765210c6)
+```txt
+[root@AY120919111755c246621 tmp]# fdisk -l
+
+Disk /dev/xvda: 21.5 GB, 21474836480 bytes
+255 heads, 63 sectors/track, 2610 cylinders
+Units = cylinders of 16065 * 512 = 8225280 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0x00000000
+
+    Device Boot      Start         End      Blocks   Id  System
+/dev/xvda1   *           1        2550    20480000   83  Linux
+/dev/xvda2            2550        2611      490496   82  Linux swap / Solaris
+
+Disk /dev/xvdb: 21.5 GB, 21474836480 bytes
+255 heads, 63 sectors/track, 2610 cylinders
+Units = cylinders of 16065 * 512 = 8225280 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0x56f40944
+
+    Device Boot      Start         End      Blocks   Id  System
+/dev/xvdb2               1        2610    20964793+  83  Linux
+```
 
 查看根目录所在磁盘，并查阅该硬盘内的相关信息：
 
-![image](https://github.com/user-attachments/assets/52c91902-529f-492a-a7e1-875a33176080)
+```txt
+[root@www ~]# df /            <==注意：重点在找出磁盘文件名而已
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/hdc2              9920624   3823168   5585388  41% /
+
+[root@www ~]# fdisk /dev/hdc  <==不要加上数字！
+The number of cylinders for this disk is set to 5005.
+There is nothing wrong with that, but this is larger than 1024,
+and could in certain setups cause problems with:
+1) software that runs at boot time (e.g., old versions of LILO)
+2) booting and partitioning software from other OSs
+   (e.g., DOS FDISK, OS/2 FDISK)
+
+Command (m for help):     <==等待你的输入！
+```
 
 输入 m 后，就会看到底下这些命令介绍
 
-![image](https://github.com/user-attachments/assets/e67c4b86-8864-40cd-b235-b883db545cbe)
+```txt
+Command (m for help): m   <== 输入 m 后，就会看到底下这些命令介绍
+Command action
+   a   toggle a bootable flag
+   b   edit bsd disklabel
+   c   toggle the dos compatibility flag
+   d   delete a partition            <==删除一个partition
+   l   list known partition types
+   m   print this menu
+   n   add a new partition           <==新增一个partition
+   o   create a new empty DOS partition table
+   p   print the partition table     <==在屏幕上显示分割表
+   q   quit without saving changes   <==不储存离开fdisk程序
+   s   create a new empty Sun disklabel
+   t   change a partition's system id
+   u   change display/entry units
+   v   verify the partition table
+   w   write table to disk and exit  <==将刚刚的动作写入分割表
+   x   extra functionality (experts only)
+```
 
 离开 fdisk 时按下 q，那么所有的动作都不会生效！相反的， 按下w就是动作生效的意思。
 
-![image](https://github.com/user-attachments/assets/36752dcf-a51f-47e6-a608-e3924e42940c)
+```txt
+Command (m for help): p  <== 这里可以输出目前磁盘的状态
+
+Disk /dev/hdc: 41.1 GB, 41174138880 bytes        <==这个磁盘的文件名与容量
+255 heads, 63 sectors/track, 5005 cylinders      <==磁头、扇区与磁柱大小
+Units = cylinders of 16065 * 512 = 8225280 bytes <==每个磁柱的大小
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/hdc1   *           1          13      104391   83  Linux
+/dev/hdc2              14        1288    10241437+  83  Linux
+/dev/hdc3            1289        1925     5116702+  83  Linux
+/dev/hdc4            1926        5005    24740100    5  Extended
+/dev/hdc5            1926        2052     1020096   82  Linux swap / Solaris
+# 装置文件名 启动区否 开始磁柱    结束磁柱  1K大小容量 磁盘分区槽内的系统
+
+Command (m for help): q
+```
+
 
 使用 p 可以列出目前这颗磁盘的分割表信息，这个信息的上半部在显示整体磁盘的状态。
 
@@ -992,7 +1117,9 @@ fdisk 是 Linux 的磁盘分区表操作工具。
 
 语法：
 
-![image](https://github.com/user-attachments/assets/93d1f744-c5c1-45d8-80a4-98c726627a8a)
+```txt
+mkfs [-t 文件系统格式] 装置文件名
+```
 
 选项与参数：
 
@@ -1000,13 +1127,41 @@ fdisk 是 Linux 的磁盘分区表操作工具。
 
 查看 mkfs 支持的文件格式：
 
-![image](https://github.com/user-attachments/assets/69944f63-6898-4648-82c3-8657c1a6008d)
+```txt
+[root@VM_0_9_centos web]# mkfs[tab]
+mkfs         mkfs.cramfs  mkfs.ext3    mkfs.minix   
+mkfs.btrfs   mkfs.ext2    mkfs.ext4    mkfs.xfs
+```
 
 按下两个[tab]，会发现 mkfs 支持的文件格式如上所示。
 
 将分区 /dev/hdc6（可指定其他分区） 格式化为ext3文件系统：
 
-![image](https://github.com/user-attachments/assets/a220f064-c0b9-44b1-b686-2cb3934794fe)
+```txt
+[root@www ~]# mkfs -t ext3 /dev/hdc6
+mke2fs 1.39 (29-May-2006)
+Filesystem label=                <==这里指的是分割槽的名称(label)
+OS type: Linux
+Block size=4096 (log=2)          <==block 的大小配置为 4K 
+Fragment size=4096 (log=2)
+251392 inodes, 502023 blocks     <==由此配置决定的inode/block数量
+25101 blocks (5.00%) reserved for the super user
+First data block=0
+Maximum filesystem blocks=515899392
+16 block groups
+32768 blocks per group, 32768 fragments per group
+15712 inodes per group
+Superblock backups stored on blocks:
+        32768, 98304, 163840, 229376, 294912
+
+Writing inode tables: done
+Creating journal (8192 blocks): done <==有日志记录
+Writing superblocks and filesystem accounting information: done
+
+This filesystem will be automatically checked every 34 mounts or
+180 days, whichever comes first.  Use tune2fs -c or -i to override.
+# 这样就创建起来我们所需要的 Ext3 文件系统了！简单明了！
+```
 
 ### 磁盘检验
 fsck（file system check）用来检查和维护不一致的文件系统。
@@ -1015,7 +1170,9 @@ fsck（file system check）用来检查和维护不一致的文件系统。
 
 语法：
 
-![image](https://github.com/user-attachments/assets/9b39f375-aa0d-42d8-aac8-605730bcb94c)
+```txt
+fsck [-t 文件系统] [-ACay] 装置名称
+```
 
 选项与参数：
 
@@ -1033,11 +1190,24 @@ fsck（file system check）用来检查和维护不一致的文件系统。
 
 查看系统有多少文件系统支持的 fsck 命令：
 
-![image](https://github.com/user-attachments/assets/762b93b7-3fc1-4689-90a3-6a4c42ac60fa)
+```txt
+[root@www ~]# fsck[tab][tab]
+fsck         fsck.cramfs  fsck.ext2    fsck.ext3    fsck.msdos   fsck.vfat
+```
 
 强制检测 /dev/hdc6 分区:
 
-![image](https://github.com/user-attachments/assets/777cfe8e-e068-473a-a3a8-f8c24b7e10b8)
+```txt
+[root@www ~]# fsck -C -f -t ext3 /dev/hdc6 
+fsck 1.39 (29-May-2006)
+e2fsck 1.39 (29-May-2006)
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+vbird_logical: 11/251968 files (9.1% non-contiguous), 36926/1004046 blocks
+```
 
 如果没有加上 -f 的选项，则由于这个文件系统不曾出现问题，检查的经过非常快速！若加上 -f 强制检查，才会一项一项的显示过程。
 
@@ -1046,15 +1216,26 @@ Linux 的磁盘挂载使用 mount 命令，卸载使用 umount 命令。
 
 磁盘挂载语法：
 
-![image](https://github.com/user-attachments/assets/073d1b16-cf4f-414a-985b-0bc8dddccedf)
+```txt
+mount [-t 文件系统] [-L Label名] [-o 额外选项] [-n]  装置文件名  挂载点
+```
 
 用默认的方式，将刚刚创建的 /dev/hdc6 挂载到 /mnt/hdc6 上面！
 
-![image](https://github.com/user-attachments/assets/ad690280-7f32-4d1d-a76e-fb84437428a3)
+```txt
+[root@www ~]# mkdir /mnt/hdc6
+[root@www ~]# mount /dev/hdc6 /mnt/hdc6
+[root@www ~]# df
+Filesystem           1K-blocks      Used Available Use% Mounted on
+.....中间省略.....
+/dev/hdc6              1976312     42072   1833836   3% /mnt/hdc6
+```
 
 磁盘卸载命令 umount 语法：
 
-![image](https://github.com/user-attachments/assets/ba11dbd2-4668-44d1-b4db-f0bd23cf7003)
+```txt
+umount [-fn] 装置文件名或挂载点
+```
 
 选项与参数：
 
@@ -1063,12 +1244,13 @@ Linux 的磁盘挂载使用 mount 命令，卸载使用 umount 命令。
 
 卸载/dev/hdc6
 
-![image](https://github.com/user-attachments/assets/af6a94fd-8d47-4758-85d8-4b0bc064f084)
-
+```txt
+[root@www ~]# umount /dev/hdc6     
+```
 
 ## Linux管道命令
 Linux的管道命令是’|’，通过它可以对数据进行连续处理，其示意图如下：
-![image](https://github.com/user-attachments/assets/350b7eab-b157-4dc2-a69d-ed00993fa7de)
+
 
 注意：
 
