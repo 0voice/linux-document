@@ -386,7 +386,8 @@ xargs 用作替换工具，读取输入数据重新格式化后输出。
 
 复制所有图片文件到 /data/images 目录下：
 
-![image](https://github.com/user-attachments/assets/698a99ed-9356-4264-9397-69da5e1ed019)
+![image](https://github.com/user-attachments/assets/e7693289-d974-4feb-bd2b-5835e574c29b)
+
 
 选项-n 后面加次数，表示命令在执行的时候一次用的argument的个数，默认是用所有的。
 
@@ -394,21 +395,23 @@ xargs 结合 find 使用
 
 用 rm 删除太多的文件时候，可能得到一个错误信息：/bin/rm Argument list too long. 用 xargs 去避免这个问题：
 
-![image](https://github.com/user-attachments/assets/97257714-e6c6-4c54-90bc-35301112305a)
+![image](https://github.com/user-attachments/assets/95ca4374-9341-4c03-8a2a-f0f4698ee887)
+
 
 xargs -0 将 \0 作为定界符。
 
 统计一个源代码目录中所有 php 文件的行数：
 
-![image](https://github.com/user-attachments/assets/90b81d90-bcf7-4d00-9d51-16c962e85006)
+![image](https://github.com/user-attachments/assets/86f89678-daf9-434a-8642-f13ded0464ed)
+
 
 查找所有的 jpg 文件，并且压缩它们：
 
-![image](https://github.com/user-attachments/assets/82e186ec-9280-45e2-8df7-fbcb4130fb49)
+![image](https://github.com/user-attachments/assets/aaa27854-5eca-4266-bbac-e2eb79ca6138)
 
 批量下载：
 
-![image](https://github.com/user-attachments/assets/e96b0721-c1bc-4dae-9f2f-8b64d9c7fb04)
+![image](https://github.com/user-attachments/assets/4d5ef3dd-6ef6-4df4-a52a-1e72a8c01967)
 
 wget的-c选项表示断点续传。
 
@@ -416,41 +419,49 @@ wget的-c选项表示断点续传。
 
 # Linux命令练习
 ## 常用命令
-![image](https://github.com/user-attachments/assets/bb406a7c-7f0a-460f-88bb-fb6f4ae6a185)
+![image](https://github.com/user-attachments/assets/1dde65f0-2880-45f8-97d3-b10c3329beb7)
+
 
 ## 系统命令
-![image](https://github.com/user-attachments/assets/2ebdfba0-ff67-4b14-8f12-1cbc0a8b0d5f)
+![image](https://github.com/user-attachments/assets/3f334ef2-8a22-48b4-adae-e2df1244c086)
 
 ## 用户和组
-![image](https://github.com/user-attachments/assets/0104d2cc-db43-4453-bfd1-0fe3475cf4f5)
+![image](https://github.com/user-attachments/assets/43903c3d-5606-403c-8978-386a40cb8588)
+
 
 ## 权限
-![image](https://github.com/user-attachments/assets/b0c99f8f-34b4-4bf9-9aff-ff5ebb86ac40)
+![image](https://github.com/user-attachments/assets/d5d6591d-94d2-408c-ad91-2ca4fbf300ac)
+
 
 ## 帮助文档
-![image](https://github.com/user-attachments/assets/3ad5a8e8-7ea9-4f4f-b197-4aac0075b35f)
+![image](https://github.com/user-attachments/assets/b08ded26-d795-4d15-9d53-61f82d225490)
+
 
 文件相关命令
 
-![image](https://github.com/user-attachments/assets/5f0fd033-2dcc-4742-91d0-b8f810e2645c)
+![image](https://github.com/user-attachments/assets/2f863d1c-3264-4ee2-9519-5a5b3e5c086d)
+
 
 ## VIM
-![image](https://github.com/user-attachments/assets/4693faa8-15db-41e3-a198-c9e232c81bfa)
+![image](https://github.com/user-attachments/assets/e9ea800e-869d-48b8-8136-a9d09a1b5675)
 
 ## 查找
-![image](https://github.com/user-attachments/assets/e03c93c0-cd66-49dc-896b-719b03742324)
+![image](https://github.com/user-attachments/assets/612d3054-ef2e-4342-b7a5-21ec5332cc6b)
 
 ## 打包与压缩
-![image](https://github.com/user-attachments/assets/158e39ca-f975-4672-82f3-e66fddc3e658)
+![image](https://github.com/user-attachments/assets/89616999-7e1a-465d-843f-d82732800f78)
+
 
 ## 正则表达式
-![image](https://github.com/user-attachments/assets/67218c3b-4e78-410d-9406-e759dadb1b0a)
+![image](https://github.com/user-attachments/assets/5c4c742e-a35b-4faf-ab02-651340bff624)
 
 ## 输入输出重定向
-![image](https://github.com/user-attachments/assets/e382d65e-4dee-4e08-bb8c-d79ddab1026d)
+![image](https://github.com/user-attachments/assets/fc37f2f3-6dce-4fac-b714-154a41772190)
+
 
 ## 进程控制
-![image](https://github.com/user-attachments/assets/0e1a8968-e207-4183-b5bb-595eaac336c7)
+![image](https://github.com/user-attachments/assets/4cf0161b-e37b-4cf6-b71f-3e4fc0275093)
+
 
 ## 其他命令
 ### 远程文件复制：scp
@@ -462,19 +473,23 @@ scp 是加密的，rcp 是不加密的，scp 是 rcp 的加强版。
 
 从本地复制到远程命令格式：
 
-![image](https://github.com/user-attachments/assets/f224abe6-ff73-4c5b-ba0e-0f266e2702bb)
+![image](https://github.com/user-attachments/assets/3d3a477a-1e2d-4d50-9839-48bb67e18e45)
+
 
 实例：
 
-![image](https://github.com/user-attachments/assets/65cdb656-b1ed-47dd-a7df-3d16576ac8e8)
+![image](https://github.com/user-attachments/assets/89851cd2-f7ec-4517-922f-3b16b128d4f6)
+
 
 从远程复制到本地：
 
-![image](https://github.com/user-attachments/assets/4a307c74-9ddb-4c98-b163-e0f59bf7229d)
+![image](https://github.com/user-attachments/assets/b5604b22-fa92-4630-8905-fa787cb93f0d)
+
 
 -P 参数来设置命令的端口号：
 
-![image](https://github.com/user-attachments/assets/fefcc24e-e811-4ba4-9d1e-80e4d42a498d)
+![image](https://github.com/user-attachments/assets/6ec43f54-77a6-4545-a01c-0e771c502a4c)
+
 
 ## locate查找
 locate命令会去保存文档和目录名称的数据库内，查找文件或目录。
@@ -487,28 +502,33 @@ locate命令会去保存文档和目录名称的数据库内，查找文件或�
 
 查找passwd文件，输入以下命令：
 
-![image](https://github.com/user-attachments/assets/4f712959-a0b3-4c88-a6fd-92ee2a5861bc)
+![image](https://github.com/user-attachments/assets/2f04d857-1918-4453-bd96-571f97bf0dae)
+
 
 locate与find的区别: find 是去硬盘找，locate 只在/var/lib/slocate资料库中找。
 
 locate的速度比find快，它并不是真的查找，而是查数据库，一般文件数据库在/var/lib/mlocate/mlocate.db中，所以locate的查找并不是实时的，而是以数据库的更新为准，一般是系统自己维护，也可以手工升级数据库 ，命令为：
 
-![image](https://github.com/user-attachments/assets/e9ec9c10-1b84-4d81-a193-07259359c5ad)
+![image](https://github.com/user-attachments/assets/b003b6df-a38f-413b-a9bd-9d55763c7ccb)
+
 
 ## which命令
 which查找$PATH中设置命令及安装文件目录所在位置
 
-![image](https://github.com/user-attachments/assets/51849d5e-78e8-4108-a053-3d17c65150fa)
+![image](https://github.com/user-attachments/assets/ea09276c-ab2e-426c-b6f0-2c8de1301f01)
+
 
 ## echo
 常见用法：
 
-![image](https://github.com/user-attachments/assets/2a35821e-17b0-4354-a31d-c0132ecce52d)
+![image](https://github.com/user-attachments/assets/b4c841dc-369b-46fa-a761-227f239d3482)
+
 
 ## 设置或显示环境变量：export
 在 shell 中执行程序时，shell 会提供一组环境变量。export 可新增，修改或删除环境变量，供后续执行的程序使用。export 的效力仅限于该次登陆操作。
 
-![image](https://github.com/user-attachments/assets/82b34ec1-a4cc-4a76-ac9f-505f97adabd6)
+![image](https://github.com/user-attachments/assets/cc1c87c8-0c40-4145-aac1-71ed61823f67)
+
 
 参数说明：
 
@@ -516,7 +536,8 @@ which查找$PATH中设置命令及安装文件目录所在位置
 - -n 　删除指定的变量。变量实际上并未删除，只是不会输出到后续指令的执行环境中。
 - -p 　列出所有的shell赋予程序的环境变量。
 
-![image](https://github.com/user-attachments/assets/c626bfd4-c27e-436e-ad2e-894ec4f6d2c8)
+![image](https://github.com/user-attachments/assets/e993e325-ad1f-40ed-90d9-ea2746ee10ad)
+
 
 ## 修改主机名&ip地址
 显示主机名：hostname
@@ -527,17 +548,19 @@ which查找$PATH中设置命令及安装文件目录所在位置
 
 对于Ubuntu 系统
 
-![image](https://github.com/user-attachments/assets/649679b8-b3cd-4be1-8cb1-163f3d705a8e)
+![image](https://github.com/user-attachments/assets/bacd6ea7-6353-431f-ac8f-e7dec04b9f5d)
+
 
 对于centos系统
 
-![image](https://github.com/user-attachments/assets/28447559-1ae7-4fab-9c98-47017165cb18)
+![image](https://github.com/user-attachments/assets/e9c31d90-2f64-4b4a-bd7b-3f8e51318063)
 
 在此配置文件中添加一条HOSTNAME=node1
 
 针对centos7系统，可以使用如下命令
 
-![image](https://github.com/user-attachments/assets/db191330-957c-454a-9990-5452ed8a6977)
+![image](https://github.com/user-attachments/assets/4bd680d7-72f9-46d5-b4b5-fbe46d1426b6)
+
 
 一般需要重开shell甚至重启操作系统才能生效。
 
@@ -545,16 +568,18 @@ which查找$PATH中设置命令及安装文件目录所在位置
 
 ifconfig eth0 192.168.12.22(重启后无效)
 
-![image](https://github.com/user-attachments/assets/c1223ac4-f88e-464d-8873-39953a99d2ec)
+![image](https://github.com/user-attachments/assets/7bf82c3d-7a62-4c42-8838-25fb04cccf53)
+
 
 ## mount挂载
 mount 挂载外部存储设备到文件系统中
 
-![image](https://github.com/user-attachments/assets/819a391d-4af8-4668-b2f6-8ac83ced923b)
+![image](https://github.com/user-attachments/assets/b9710f59-aebc-4b08-adae-7a6749dd43ba)
 
 将设备/dev/cdrom挂载到 挂载点 ： /mnt/cdrom中
 
-![image](https://github.com/user-attachments/assets/24e5a0bc-afa8-460d-90bb-a3c42fa7c17a)
+![image](https://github.com/user-attachments/assets/6df98863-8ee6-43a3-a140-0eff01600489)
+
 
 ## ssh免密登陆
 假如 A 要登陆 B
@@ -563,11 +588,12 @@ mount 挂载外部存储设备到文件系统中
 
 首先生成密钥对
 
-![image](https://github.com/user-attachments/assets/429252c7-5754-49dc-a4f0-e4cd44dfe953)
+![image](https://github.com/user-attachments/assets/fe1e582e-eee4-40ed-b1bc-78ecfcafa34c)
+
 
 再将A自己的公钥拷贝并追加到B的授权列表文件authorized_keys中
 
-![image](https://github.com/user-attachments/assets/5e6362c4-67c1-4419-9b31-474571697798)
+![image](https://github.com/user-attachments/assets/5099204e-6eb8-4ecc-8c56-84470a6408b7)
 
 ## 批量添加用户
 ### 与用户账号有关的系统文件
@@ -577,11 +603,12 @@ mount 挂载外部存储设备到文件系统中
 
 它的内容类似下面的例子：
 
-![image](https://github.com/user-attachments/assets/40b7680f-06f2-465c-8c7e-a62cd18f75f7)
+![image](https://github.com/user-attachments/assets/12b60bfa-3ea8-401a-a0b0-5a66329e23a9)
 
 /etc/passwd中一行记录对应着一个用户，每行记录又被冒号(:)分隔为7个字段，其格式和具体含义如下：
 
-![image](https://github.com/user-attachments/assets/b8d5aeaf-d66e-419f-8f1e-363fc608cf49)
+![image](https://github.com/user-attachments/assets/7ed8cdeb-ef75-432e-969a-9d0c678a7671)
+
 
 **用户名：**
 
@@ -627,7 +654,8 @@ Shell是用户与Linux系统之间的接口。Linux的Shell有许多种，每种
 
 常见的伪用户如下所示：
 
-![image](https://github.com/user-attachments/assets/529f9417-8851-40b0-95a6-a40e948d4757)
+![image](https://github.com/user-attachments/assets/5673c290-d3f9-430c-97d4-30cf2b0b0029)
+
 
 还有许多标准的伪用户，例如：audit, cron, mail, usenet等，它们也都各自为相关的进程和文件所需要。
 
@@ -639,7 +667,8 @@ Shell是用户与Linux系统之间的接口。Linux的Shell有许多种，每种
 
 字段是：
 
-![image](https://github.com/user-attachments/assets/79cd2b04-8252-470c-a45d-b0b4dc21907e)
+![image](https://github.com/user-attachments/assets/b3aff99d-a403-4f3f-8247-86269a80d3b0)
+
 
 1."登录名"是与/etc/passwd文件中的登录名相一致的用户账号
 
@@ -659,7 +688,8 @@ Shell是用户与Linux系统之间的接口。Linux的Shell有许多种，每种
 
 下面是/etc/shadow的一个例子：
 
-![image](https://github.com/user-attachments/assets/2f99a4e1-e2fe-4f6c-8cdf-9fa4558d4c85)
+![image](https://github.com/user-attachments/assets/cf44a272-aa80-4112-836c-fccd5957f3c7)
+
 
 **/etc/group记录用户组信息**
 
@@ -671,7 +701,8 @@ Shell是用户与Linux系统之间的接口。Linux的Shell有许多种，每种
 
 用户组的所有信息都存放在/etc/group文件中，字段有：
 
-![image](https://github.com/user-attachments/assets/e0f0ea47-5e8f-44fa-91ba-8db127adcc3c)
+![image](https://github.com/user-attachments/assets/35b73c0a-911e-482c-8f1d-fc393e6873f9)
+
 
 1."组名"是用户组的名称，由字母或数字构成。与/etc/passwd中的登录名一样，组名不应重复。
 
@@ -683,20 +714,20 @@ Shell是用户与Linux系统之间的接口。Linux的Shell有许多种，每种
 
 /etc/group文件的一个例子如下：
 
-![image](https://github.com/user-attachments/assets/91000c1f-b32d-4809-acc1-6e7b4eb95601)
+![image](https://github.com/user-attachments/assets/c4e8eccb-d8f4-4b8e-8fd5-e9ac899cfeed)
 
 ## 实操
 **先编辑一个文本用户文件**
 
 每一列按照/etc/passwd密码文件的格式书写，要注意每个用户的用户名、UID、宿主目录都不可以相同，其中密码栏可以留做空白或输入x号。一个范例文件user.txt内容如下：
 
-![image](https://github.com/user-attachments/assets/79c468d4-0082-4283-a83e-3993fd87bad9)
+![image](https://github.com/user-attachments/assets/c606d312-ecea-4319-86ed-d93f62cf140a)
 
 **执行/usr/sbin/newusers命令**
 
 需要root权限：
 
-![image](https://github.com/user-attachments/assets/3652d9b1-d14e-4727-b04f-81f2ec477d6e)
+![image](https://github.com/user-attachments/assets/12442a3a-c23f-47a9-8244-6022a77eb129)
 
 可以执行命令 vipw 或 vi /etc/passwd 检查 /etc/passwd 文件是否已经出现这些用户的数据，并且用户的宿主目录是否已经创建。
 
@@ -706,17 +737,18 @@ Shell是用户与Linux系统之间的接口。Linux的Shell有许多种，每种
 
 执行/usr/sbin/pwunconv命令:
 
-![image](https://github.com/user-attachments/assets/45e555c3-dab4-4415-a5cf-7d03cd53a19b)
+![image](https://github.com/user-attachments/assets/22edc501-54d9-4010-9681-470f44aecffc)
 
 **编辑每个用户的密码对照文件**
 
 格式为：
 
-![image](https://github.com/user-attachments/assets/92f35f21-0be8-4f60-a2be-ef5fd6407311)
+![image](https://github.com/user-attachments/assets/f7602e99-b577-47bd-81d2-b3d534833b7a)
+
 
 实例文件 passwd.txt 内容如下：
 
-![image](https://github.com/user-attachments/assets/eca1db51-b159-4a7c-9c64-70870a697f91)
+![image](https://github.com/user-attachments/assets/91c33fee-fcf2-4027-ad2d-ba94946a1916)
 
 **执行 /usr/sbin/chpasswd命令**
 
@@ -724,13 +756,14 @@ Shell是用户与Linux系统之间的接口。Linux的Shell有许多种，每种
 
 创建用户密码，chpasswd 会将经过 /usr/bin/passwd 命令编码过的密码写入 /etc/passwd 的密码栏。
 
-![image](https://github.com/user-attachments/assets/8d1b64e9-28e4-4cf2-b4f8-bfb55041f81e)
+![image](https://github.com/user-attachments/assets/cbb1942a-3a85-46c7-b8d0-e0041b4ed59f)
 
 **将密码编码为 shadow password**
 
 执行命令 /usr/sbin/pwconv 将密码编码为 shadow password，并将结果写入 /etc/shadow。
 
-![image](https://github.com/user-attachments/assets/1a7e1193-c70a-4766-a745-feb9c607a674)
+![image](https://github.com/user-attachments/assets/97e10694-059f-416d-aba3-f44f977363b9)
+
 
 这样就完成了大量用户的创建了，之后您可以到/home下检查这些用户宿主目录的权限设置是否都正确，并登录验证用户密码是否正确。
 
@@ -740,7 +773,8 @@ Shell是用户与Linux系统之间的接口。Linux的Shell有许多种，每种
 
 然后运行：
 
-![image](https://github.com/user-attachments/assets/54734440-86ea-459d-8ecb-463c886ff025)
+![image](https://github.com/user-attachments/assets/ba3e974a-8e7d-488e-90ea-aa631e4330f7)
+
 
 ## crontab的使用
 crontab命令是cron table的简写，它是cron的配置文件，也可以叫它作业列表。
@@ -754,7 +788,8 @@ crontab命令是cron table的简写，它是cron的配置文件，也可以叫�
 
 命令格式：
 
-![image](https://github.com/user-attachments/assets/ba49a2cd-cf78-4302-ae12-02b01b311d9b)
+![image](https://github.com/user-attachments/assets/c0814c53-9f16-48d7-8491-7271b0e77bc4)
+
 
 **crontab -e**进入当前用户的工作表编辑，是常见的vim界面。每行是一条命令。
 
@@ -767,9 +802,9 @@ crontab的命令构成为 时间+动作，其时间有**分、时、日、月、
   
 基本格式 :
 
-![image](https://github.com/user-attachments/assets/ad6fbea9-84b8-4bb3-8ecf-2ba01ccdcaac)
+![image](https://github.com/user-attachments/assets/5fa4754b-05bf-4c30-970a-fe1bcbd51845)
 
-![image](https://github.com/user-attachments/assets/426ed76b-27ee-4448-9420-732c9cd7169f)
+![image](https://github.com/user-attachments/assets/4903bf20-05e9-4f8c-9b24-fd47e1cc7bf7)
 
 - 其中 f1 是表示分钟，f2 表示小时，f3 表示一个月份中的第几日，f4 表示月份，f5 表示一个星期中的第几天。command表示要执行的命令。
 - 当 f1 为 * 时表示每分钟都要执行 program，f2 为 * 时表示每小时都要执行程序，以此类推
@@ -779,23 +814,40 @@ crontab的命令构成为 时间+动作，其时间有**分、时、日、月、
 
 在 12 月内, 每天的早上 6 点到 12 点，每隔 3 个小时 0 分钟执行一次 /usr/bin/backup
 
-![image](https://github.com/user-attachments/assets/1786b4e6-a888-40a3-a5e4-fbc6872e3af6)
+![image](https://github.com/user-attachments/assets/d6ecbd61-2169-4d5d-b803-8279da664348)
 
 周一到周五每天下午 5:00 寄一封信给 alex@domain.name
 
-![image](https://github.com/user-attachments/assets/5218ae3a-6863-42ac-b8c3-e54031939e0a)
+![image](https://github.com/user-attachments/assets/8daad7dd-1704-419e-ba9a-cc83e141f4e9)
+
 
 每月每天的午夜 0 点 20 分, 2 点 20 分, 4 点 20 分…执行 echo “haha”
 
-![image](https://github.com/user-attachments/assets/7966e7a6-909a-467e-a669-e4d7fbf12d07)
+![image](https://github.com/user-attachments/assets/07612cbc-5baa-45b5-a242-b728d7fc5813)
+
 
 示例1：
 
-![image](https://github.com/user-attachments/assets/44b4bb24-770b-49a5-917b-eecb35df5f58)
+![image](https://github.com/user-attachments/assets/90f6b651-7804-4818-ba6a-6302d20c0a65)
+
 
 示例2：
 
-![image](https://github.com/user-attachments/assets/bd3bae38-d7e9-41a1-a03b-72c6699614a3)
+```txt
+0 */2 * * * /sbin/service httpd restart  每两个小时重启一次apache 
+
+50 7 * * * /sbin/service sshd start  每天7：50开启ssh服务 
+
+50 22 * * * /sbin/service sshd stop  每天22：50关闭ssh服务 
+
+0 0 1,15 * * fsck /home  每月1号和15号检查/home 磁盘 
+
+1 * * * * /home/bruce/backup  每小时的第一分执行 /home/bruce/backup这个文件 
+
+00 03 * * 1-5 find /home "*.xxx" -mtime +4 -exec rm {} \;  每周一至周五3点钟，在目录/home中，查找文件名为*.xxx的文件，并删除4天前的文件。
+
+30 6 */10 * * ls  每月的1、11、21、31日是的6：30执行一次ls命令
+```
 
 **环境变量问题：**
 
@@ -807,11 +859,13 @@ crontab的命令构成为 时间+动作，其时间有**分、时、日、月、
 
 2）脚本执行要用到java或其他环境变量时，通过source命令引入环境变量，如：
 
-![image](https://github.com/user-attachments/assets/abbba1e0-083c-4d75-a751-ee333279885b)
+![image](https://github.com/user-attachments/assets/1d00a935-806d-486d-a527-8a8da14554cd)
+
 
 3）当手动执行脚本OK，但是crontab死活不执行时，可以尝试在crontab中直接引入环境变量解决问题。如：
 
-![image](https://github.com/user-attachments/assets/17de4fdc-e7b8-4563-988b-f0bfd82088af)
+![image](https://github.com/user-attachments/assets/748d5bac-424d-4a1b-918f-eb2dab2ff8d4)
+
 
 # 特殊权限
 linux共12位权限，除了9位基础权限还有3个特殊权限。
@@ -824,7 +878,7 @@ SetUID（简写suid）：会在属主权限位的执行权限上写个s。 如�
 
 suid数字权限是4000,设置方法：
 
-![image](https://github.com/user-attachments/assets/033342a8-442f-4392-961c-5276e001fb3f)
+![image](https://github.com/user-attachments/assets/a045d368-f3c0-422a-baf9-b636fc2471b0)
 
 查看passwd命令的权限
 
@@ -857,15 +911,16 @@ suid数字权限是4000,设置方法：
 
 write命令的权限：
 
-![image](https://github.com/user-attachments/assets/35daa859-6041-4a63-85dd-698e504343c4)
+![image](https://github.com/user-attachments/assets/5b7039fd-d92d-4bc0-95b5-4cb90066ca33)
+
 
 sgid数字权限是2000，设置方法：
 
-![image](https://github.com/user-attachments/assets/ffd9bbac-bd73-41cf-8c47-e8a6a93c03f3)
+![image](https://github.com/user-attachments/assets/7ceef0d3-a92f-4eb5-8617-7ec6e2e8958a)
 
 在设置SetGID的文件夹创建文件的属组是父目录的属组：
 
-![image](https://github.com/user-attachments/assets/4c0c13d9-6277-40b2-b11e-d3497705a428)
+![image](https://github.com/user-attachments/assets/b51de2bd-cdb0-47b7-b424-240a45a6fd63)
 
 ### sticky(sbit)粘滞位
 **命令功能：**粘滞位，只对目录有效，对某目录设置粘滞位后，普通用户就算有w权限也只能删除该目录下自己建立的文件，而不能删除其他用户建立的文件。
@@ -874,30 +929,34 @@ sgid数字权限是2000，设置方法：
 
 系统中存在的/tmp目录是经典的粘滞位目录，谁都有写权限，因此安全成问题，常常是木马第一手跳板。
 
-![image](https://github.com/user-attachments/assets/f7d66473-30f1-4a8e-8e45-048dac2934a2)
+![image](https://github.com/user-attachments/assets/5fdcbe08-6be1-43b6-9997-7e13e07a3052)
 
 sbit数字权限是1000，设置方法：
 
-![image](https://github.com/user-attachments/assets/d80582e4-d6a6-4cd6-a73e-2da077f7ad89)
+![image](https://github.com/user-attachments/assets/c0c3cc6d-873a-4462-8f2f-ca751c33949f)
+
 
 ## chattr权限
 chattr概述：凌驾于r、w、x、suid、sgid之上的权限。
 
 ### lsattr：查看特殊权限
 
-![image](https://github.com/user-attachments/assets/6d9f8047-7bb0-4159-989b-3e04cff9e6d6)
+![image](https://github.com/user-attachments/assets/1ec3a39e-fac9-4d2a-8b46-5d3a9352f07a)
+
 
 ### chattr：设置特殊权限
 
-![image](https://github.com/user-attachments/assets/585e7536-9086-42c5-8760-59756db1bfd7)
+![image](https://github.com/user-attachments/assets/9bd3beaf-7da6-4fae-9082-70a248780ae1)
+
 
 防止系统中某个关键文件被修改：
 
-![image](https://github.com/user-attachments/assets/4aa95274-0d04-47ae-a407-7466f3ee4dee)
+![image](https://github.com/user-attachments/assets/3b372815-4da8-4094-9802-b635442b9407)
 
 让某个文件只能往里面追加内容，不能删除，一些日志文件适用于这种操作：
 
-![image](https://github.com/user-attachments/assets/0299160e-a3c6-4fc5-a439-9342aff3e564)
+![image](https://github.com/user-attachments/assets/57d99a24-b1e0-444c-a5a6-71b0aa4a7507)
+
 
 ## 掩码umask
 ### umask的作用
@@ -905,7 +964,7 @@ umask值用于设置用户在创建文件时的默认权限，当我们在系统
 
 对于root用户，系统默认的umask值是0022；对于普通用户，系统默认的umask值是0002。执行umask命令可以查看当前用户的umask值。
 
-![image](https://github.com/user-attachments/assets/8a64382b-a676-4b1e-800f-579c9fb0ecb9)
+![image](https://github.com/user-attachments/assets/7b00494b-9e4b-4e0b-b3cb-c5efa8001d50)
 
 ### umask是如何改变新文件的权限
 umask值一共有4组数字，其中第1组数字用于定义特殊权限，一般不予考虑，与一般权限有关的是后3组数字。
@@ -916,7 +975,8 @@ umask值一共有4组数字，其中第1组数字用于定义特殊权限，一�
 
 通过umask命令可以修改umask值，比如将umask值设为0077。
 
-![image](https://github.com/user-attachments/assets/c32bf5e3-1a7f-480d-adcb-7598dea72821)
+![image](https://github.com/user-attachments/assets/867586e7-d49a-45a4-9b12-8647c02ef9b5)
+
 
 ### 永久修改umask
 umask命令只能临时修改umask值，系统重启之后umask将还原成默认值。如果要永久修改umask值，可修改/etc/bashrc或/etc/profile文件。
@@ -932,17 +992,18 @@ Ubuntu 的软件源配置文件是 /etc/apt/sources.list。将系统自带的该
 
 ubuntu版本: 16.04 LTS
 
-![image](https://github.com/user-attachments/assets/70a80062-39a8-4fef-af7e-7dae921a7dbe)
+![image](https://github.com/user-attachments/assets/1aaf6740-c22f-4cee-b829-b714aa397191)
+
 
 然后
 
-![image](https://github.com/user-attachments/assets/64d376b6-1ab2-41a0-b866-caab397d804b)
+![image](https://github.com/user-attachments/assets/6923fd6b-9fe2-4c3f-9902-bda9711d3e3c)
+
 
 再sudo vim /etc/apt/sources.list修改为以上内容
 
 ### Ubuntu软件操作的相关命令
 
-![image](https://github.com/user-attachments/assets/5d5f727a-17ae-4b33-8b14-91fd2bd5de89)
 
 ## yum安装命令
 yum（ Yellow dog Updater, Modified）是一个在Fedora和RedHat以及SUSE中的Shell前端软件包管理器。
@@ -958,7 +1019,9 @@ yum提供了查找、安装、删除某一个、一组甚至全部软件包的�
 
 首先备份/etc/yum.repos.d/CentOS-Base.repo
 
-![image](https://github.com/user-attachments/assets/28353354-9bcd-4018-8e19-3bbbb78b5fe0)
+```txt
+mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
+```
 
 下载对应版本 repo 文件, 放入 /etc/yum.repos.d/
 
@@ -966,11 +1029,14 @@ yum提供了查找、安装、删除某一个、一组甚至全部软件包的�
 - CentOS6 ：http://mirrors.163.com/.help/CentOS6-Base-163.repo
 - CentOS7 ：http://mirrors.163.com/.help/CentOS7-Base-163.repo
 
-![image](https://github.com/user-attachments/assets/b388f38c-2b77-4144-a296-9ec328089ada)
+
 
 运行以下命令生成缓存
 
-![image](https://github.com/user-attachments/assets/6d9a270e-13bf-4375-aa39-45337887d6d8)
+```txt
+yum clean all
+yum makecache
+```
 
 除了网易之外，国内还有其他不错的 yum 源，比如中科大和搜狐。
 
@@ -981,7 +1047,10 @@ sohu 的 yum 源安装方法查看: http://mirrors.sohu.com/help/centos.html
 ## yum常用命令
 yum 语法：
 
-![image](https://github.com/user-attachments/assets/e870e089-44d4-4188-a7b2-3d84e27e8a42)
+```txt
+yum [options] [command] [package ...]
+```
+
 
 选项：
 
@@ -1012,27 +1081,47 @@ yum 语法：
 ## yum在线安装MySQL5.7
 Step1: 检测系统是否自带安装mysql
 
-![image](https://github.com/user-attachments/assets/f6f5209d-ce32-4a61-8ec4-bfdcd3534a72)
+```txt
+yum list installed | grep mysql
+```
 
 Step2: 删除系统自带的mysql及其依赖
 
-![image](https://github.com/user-attachments/assets/08dd7f37-39b5-4eb0-94e7-10d4bc4eedbe)
+```txt
+yum -y remove mysql-libs.x86_64
+```
 
 Step3: 给CentOS添加rpm源，并且选择较新的源
 
-![image](https://github.com/user-attachments/assets/123b4393-efa8-44be-8224-dbac87088314)
+```txt
+wget dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm
+yum localinstall mysql-community-release-el7-5.noarch.rpm
+yum repolist all | grep mysql
+yum-config-manager --disable mysql55-community
+yum-config-manager --disable mysql56-community
+yum-config-manager --enable mysql57-community-dmr
+yum repolist enabled | grep mysql
+```
 
 Step4:安装mysql 服务器
 
-![image](https://github.com/user-attachments/assets/994d5573-c3e0-45c8-8516-52fe04e10643)
+```txt
+yum install mysql-community-server
+```
 
 Step5: 启动mysql
 
-![image](https://github.com/user-attachments/assets/927a9779-325b-4499-baa8-7d6d055b158a)
+```txt
+service mysqld start
+```
 
 grep “password” /var/log/mysqld.log(查看临时密码)
 
-![image](https://github.com/user-attachments/assets/49e10bea-1496-40e3-8ad9-034f1908c76b)
+```txt
+SET PASSWORD = PASSWORD('your new password');
+ALTER USER 'root'@'localhost' PASSWORD EXPIRE NEVER;
+flush privileges;
+```
 
 默认的要求必须的设置格式：
 
@@ -1044,15 +1133,22 @@ grep “password” /var/log/mysqld.log(查看临时密码)
 
 如果不想复杂，可以使用以下方式
 
-![image](https://github.com/user-attachments/assets/79ef6bda-6622-4fa5-89bc-48f0e282164e)
+```txt
+set global validate_password_policy=0;
+set global validate_password_length=1;
+```
 
 Step6: 查看mysql是否自启动,并且设置开启自启动
 
-![image](https://github.com/user-attachments/assets/e7d8dad6-7401-43dc-8635-ea6c600ebb19)
-
+```txt
+# chkconfig --list | grep mysqld
+# chkconfig mysqld on
+```
 Step7: mysql安全设置
 
-![image](https://github.com/user-attachments/assets/a9ab7c60-e2c8-4807-8c86-9f017dbc7dd8)
+```txt
+mysql_secure_installation
+```
 
 ## rpm
 RPM是Red Hat公司随Redhat Linux推出了一个软件包管理器，通过它能够更加轻松容易地实现软件的安装。
@@ -1099,72 +1195,148 @@ RPM是Red Hat公司随Redhat Linux推出了一个软件包管理器，通过它�
 
 安装软件：
 
-![image](https://github.com/user-attachments/assets/24b6f420-8208-46e9-ada9-e32121b7b1d6)
+```txt
+# rpm -hvi dejagnu-1.4.2-10.noarch.rpm 
+警告：dejagnu-1.4.2-10.noarch.rpm: V3 DSA 签名：NOKEY, key ID db42a60e
+准备...           
+########################################### [100%]
+```
 
 显示软件安装信息：
 
-![image](https://github.com/user-attachments/assets/e67fde58-754c-45b3-878e-5bbce0e7d81a)
+```txt
+# rpm -qi dejagnu-1.4.2-10.noarch.rpm
+```
+
+【第1次更新 教程、类似命令关联】
+
 
 ## Linux的基本配置
 1.修改主机名
 
-![image](https://github.com/user-attachments/assets/7666f3d1-dd3b-4431-8253-f70317519b0b)
+```txt
+vi /etc/sysconfig/network
+NETWORKING=yes
+HOSTNAME=hadoop1
+```
 
 2.修改ip地址
 
-![image](https://github.com/user-attachments/assets/9f687992-b724-4ba4-bc44-3d889342d890)
+```txt
+vi /etc/sysconfig/network-scripts/ifcfg-eth0
+DEVICE=eth0
+TYPE=Ethernet
+ONBOOT=yes
+BOOTPROTO=static
+IPADDR=192.168.100.101
+NETMASK=255.255.255.0
+
+service network restart
+```
 
 3.修改ip地址和主机名的映射关系
 
-![image](https://github.com/user-attachments/assets/33c21074-703d-4c72-975e-65d6fefdc184)
+```txt
+vi /etc/hosts
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+192.168.100.101 hadoop1
+```
 
 4.关闭iptables并设置其开机启动/不启动
 
-![image](https://github.com/user-attachments/assets/f391520b-440a-41b5-9017-4ce0cd48e563)
+```txt
+service iptables stop
+chkconfig iptables on
+chkconfig iptables off
+```
 
 ## 安装JDK
-![image](https://github.com/user-attachments/assets/de75f8f9-dd1b-4776-8274-b1402e45678f)
+
+```txt
+1.上传jdk-7u45-linux-x64.tar.gz到Linux上
+2.解压jdk到/usr/local目录
+tar -zxvf jdk-7u45-linux-x64.tar.gz -C /usr/local/
+3.设置环境变量，在/etc/profile文件最后追加相关内容(技巧r:!pwd)
+vi /etc/profile
+export JAVA_HOME=/usr/local/jdk1.7.0_45
+export PATH=$PATH:$JAVA_HOME/bin
+4.刷新环境变量
+source /etc/profile
+5.测试java命令是否可用
+java -version
+```
 
 ## 制作本地YUM源
 上传CentOS-6.7-x86_64-bin-DVD1.iso到服务器
 
 将CentOS-6.7-x86_64-bin-DVD1.iso镜像挂载到某个目录:
 
-![image](https://github.com/user-attachments/assets/1307b225-46b3-4ad7-9720-fec1f7335db3)
+```txt
+mkdir /var/iso
+mount -o loop CentOS-6.7-x86_64-bin-DVD1.iso /var/iso
+```
 
 安装并启动Apache服务器：
 
-![image](https://github.com/user-attachments/assets/72a06075-22ef-421a-bf07-5c80a81670ed)
+```txt
+yum install -y httpd
+service httpd start
+```
 
 使用浏览器访问http://192.168.100.101（如果访问不通，检查防火墙是否开启了80端口或关闭防火墙）
 
 将YUM源配置到httpd中：
 
-![image](https://github.com/user-attachments/assets/9aaa3971-d48d-47cb-97c8-8816e9099bde)
+```txt
+cp -r /var/iso/ /var/www/html/CentOS-6.7
+umount /var/iso
+```
+
 
 在浏览器中访问http://192.168.100.101/CentOS-6.7/
 
-![image](https://github.com/user-attachments/assets/f2f5b28e-e4c0-4391-8691-b6866f35ed87)
+![image](https://github.com/user-attachments/assets/8e4b747f-5be5-47e0-b21a-1e531dac7218)
+
 
 **配置使用YUM源：**
 
 备份原有的YUM源的配置文件
 
-![image](https://github.com/user-attachments/assets/35aa3ee1-c9b5-4f5d-beae-b4f2db0b0ba0)
+```txt
+cd /etc/yum.repos.d/
+rename .repo .repo.bak *
+```
 
 修改YUM源配置文件
 
-![image](https://github.com/user-attachments/assets/e8674601-9834-44b4-823e-3dc86aa9bb47)
+```txt
+vi CentOS-Local.repo
+[base]
+name=CentOS-Local
+baseurl=http://192.168.100.101/CentOS-6.7
+gpgcheck=1
+enabled=1   #很重要，1才启用
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+```
 
 重建yum缓存
 
-![image](https://github.com/user-attachments/assets/208b9199-ba72-4167-a2f2-d98e3aaee430)
+```txt
+#清除yum缓存文件，重新新建
+yum clean all && yum makecache
+#列出可用的YUM源
+yum repolist
+```
 
 **rpm包生成yum源目录**
 
 如果已经下载好了rpm包，可以自行制作一个yum源（yum仓库）。将下载的rpm包上传到centos服务器上（比如/data/rpm目录下），然后进入存放rpm包的目录，执行以下命令：
 
-![image](https://github.com/user-attachments/assets/9bb7733a-c3d9-47ea-a021-97201305a4b8)
+```txt
+# cd /data/rpm
+# createrepo .
+```
 
 这样，rpm包存放的目录就可以作为yum源目录使用。
 
@@ -1194,7 +1366,12 @@ Bash是大多数Linux 系统默认的 Shell，本文也仅关注Bash Shell。
 ### 运行Shell脚本
 编写shell脚本：
 
-![image](https://github.com/user-attachments/assets/1c74a9f0-460f-45fa-b3dd-44c8ba88585b)
+```txt
+vi test.sh
+
+#!/bin/bash
+echo "Hello World !"
+```
 
 #! 是一个约定的标记，它告诉系统这个脚本需要什么解释器来执行，即使用哪一种 Shell。
 
@@ -1204,68 +1381,125 @@ echo 命令用于向窗口输出文本。
 
 **1、作为可执行程序**
 
-![image](https://github.com/user-attachments/assets/ebb55027-a163-4865-9819-5c7d2487c371)
+```txt
+chmod +x ./test.sh  #使脚本具有执行权限
+./test.sh  #执行脚本
+```
 
 默认情况下，一定要写成 ./test.sh，而不是 test.sh，运行其它二进制的程序也一样。
 
 除非将当前目录.加入到PATH环境变量中，配置方法：
 
-![image](https://github.com/user-attachments/assets/3514d96d-f1b4-4fe7-982f-c5a2e58f01c5)
+```txt
+sudo vi /etc/profile
+加入一行
+export PATH=$PATH:.
+保存之后，执行
+source /etc/profile
+```
 
 **2、作为解释器参数**
 
 直接运行解释器，其参数就是 shell 脚本的文件名：
 
-![image](https://github.com/user-attachments/assets/c9f60835-dd25-4c99-a572-296e119e3c90)
+```txt
+/bin/sh test.sh
+```
 
 这种方式运行的脚本，不需要在第一行指定解释器信息，写了也没用。
 
 ## 编写一个快捷创建shell脚本的命令
 
-![image](https://github.com/user-attachments/assets/2adadd5f-73c4-41d6-9c33-cac594ba5040)
+```txt
+#!/bin/bash
+if test -z $1;then
+  newfile="./script_`date +%m%d_%s`"
+else
+  newfile=$1
+fi
+echo $newfile
+if  ! grep "^#!" $newfile &>/dev/null; then
+cat >> $newfile << EOF
+#!/bin/bash
+# Author:
+# Date & Time: `date +"%F %T"`
+#Description:
+EOF
+fi
+vim +5 $newfile
+chmod +x $newfile
+```
 
 将以上内容编写好之后保存为shell文件，然后执行
 
-![image](https://github.com/user-attachments/assets/07d6db10-2ef1-4588-acfb-a047d8326abc)
+```txt
+chmod u+x shell
+sudo mv shell /usr/bin/
+```
 
 ## echo命令
 Shell 的 echo 指令与 PHP 的 echo 指令类似，都是用于字符串的输出。命令格式：
 
-![image](https://github.com/user-attachments/assets/5f3c1002-7a95-404a-885f-7a6fd934d073)
+```txt
+echo string
+```
 
 显示普通字符串:
 
-![image](https://github.com/user-attachments/assets/06fae384-3d5f-4ac6-95dc-d6dec17f4dcb)
+```txt
+echo "It is a test"
+```
 
 这里的双引号完全可以省略，以下命令与上面实例效果一致：
 
-![image](https://github.com/user-attachments/assets/e65e6102-4c6b-498e-a358-e5e36e4140ed)
+```txt
+echo It is a test
+```
 
 显示转义字符:
 
-![image](https://github.com/user-attachments/assets/566bd546-34d9-4b13-ae4c-6fe8f4e450ee)
+```txt
+echo "\"It is a test\""
+```
 
 结果将是:
 
-![image](https://github.com/user-attachments/assets/0acee32d-ea65-421c-9139-314bc1198cf0)
+```txt
+"It is a test"
+```
 
 同样，双引号也可以省略
 
 read 命令从标准输入中读取一行,并把输入行的每个字段的值指定给 shell 变量
 
-![image](https://github.com/user-attachments/assets/00d955d2-75bf-4fe8-b446-6f9432ab2325)
+```txt
+#!/bin/sh
+read name 
+echo "$name It is a test"
+```
 
 以上代码保存为 test.sh，name 接收标准输入的变量，结果将是:
 
-![image](https://github.com/user-attachments/assets/6952f6a6-f17a-4eb9-aa5a-4f09637f3318)
+```txt
+[root@www ~]# sh test.sh
+OK                     #标准输入
+OK It is a test        #输出
+```
 
 **显示换行**
 
-![image](https://github.com/user-attachments/assets/96670c47-53b3-4ef8-9226-c3fa83edbd6f)
+```txt
+echo -e "OK! \n" # -e 开启转义
+echo "It is a test"
+```
 
 输出结果：
 
-![image](https://github.com/user-attachments/assets/15c387d3-4c59-4e4e-b2ba-203dc1cd4093)
+```txt
+OK!
+
+It is a test
+```
 
 **显示不换行**
 
@@ -1273,12 +1507,16 @@ read 命令从标准输入中读取一行,并把输入行的每个字段的值�
 
 输出结果：
 
-![image](https://github.com/user-attachments/assets/719bbf29-0543-4752-9475-70b387a28745)
+```txt
+OK! It is a test
+```
 
 ## printf 命令
 printf 命令的语法：
 
-![image](https://github.com/user-attachments/assets/51b31f21-dc28-4e74-9f81-273af36de435)
+```txt
+printf  format-string  [arguments...]
+```
 
 **参数说明：**
 
@@ -1287,11 +1525,23 @@ printf 命令的语法：
 
 实例如下：
 
-![image](https://github.com/user-attachments/assets/aa2cc8c8-824b-46cf-9f7f-4b4a9620ebc8)
+```txt
+#!/bin/bash
+ 
+printf "%-10s %-8s %-4s\n" 姓名 性别 体重kg  
+printf "%-10s %-8s %-4.2f\n" 郭靖 男 66.1234 
+printf "%-10s %-8s %-4.2f\n" 杨过 男 48.6543 
+printf "%-10s %-8s %-4.2f\n" 郭芙 女 47.9876 
+```
 
 执行脚本，输出结果如下所示：
 
-![image](https://github.com/user-attachments/assets/08451484-77a9-4e71-93c8-7d6f54262355)
+```txt
+姓名     性别   体重kg
+郭靖     男      66.12
+杨过     男      48.65
+郭芙     女      47.99
+```
 
 - %s %c %d %f都是格式替代符
 - %-10s 指一个宽度为10个字符（-表示左对齐，没有则表示右对齐），任何字符都会被显示在10个字符宽的字符内，如果不足则自动以空格填充，超过也会将内容全部显示出来。
@@ -1299,29 +1549,71 @@ printf 命令的语法：
 
 printf的转义序列：
 
-![image](https://github.com/user-attachments/assets/59d99bf0-fdbb-4562-a426-a73bf509e67f)
+![image](https://github.com/user-attachments/assets/7d5512b1-7b18-4f0c-bdfc-9eb4cd2fc6b7)
 
 例子：
 
-![image](https://github.com/user-attachments/assets/5a69a278-d8dd-4d5c-b5e4-761011a0e4eb)
+```txt
+python@ubuntu:~/test$ printf "a string, no processing:<%s>\n" "A\nB"
+a string, no processing:<A\nB>
+python@ubuntu:~/test$ printf "a string, no processing:<%b>\n" "A\nB"
+a string, no processing:<A
+B>
+python@ubuntu:~/test$ printf "www.runoob.com \a"
+www.runoob.com python@ubuntu:~/test$ 
+```
 
 ## Shell 注释
 以 # 开头的行就是注释，会被解释器忽略：
 
-![image](https://github.com/user-attachments/assets/41a7d732-dd1d-4403-be6b-58989e562252)
+```txt
+#--------------------------------------------
+# 这是一个注释
+# author：菜鸟教程
+# site：www.taobao.com
+# slogan：学的不仅是技术，更是梦想！
+#--------------------------------------------
+##### 用户配置区 开始 #####
+#
+#
+# 这里可以添加脚本描述信息
+# 
+#
+##### 用户配置区 结束  #####
+```
 
 多行注释还可以使用以下格式：
 
-![image](https://github.com/user-attachments/assets/fe172a39-2880-4c2c-b91b-fa1d85e0b827)
+```txt
+:<<EOF
+注释内容...
+注释内容...
+注释内容...
+EOF
+```
 
 EOF 也可以使用其他符号:
 
-![image](https://github.com/user-attachments/assets/76d3d52b-4efc-4d65-b538-7906e39c40d6)
+```txt
+:<<'
+注释内容...
+注释内容...
+注释内容...
+'
+
+:<<!
+注释内容...
+注释内容...
+注释内容...
+!
+```
 
 # Shell变量
 ## 定义变量
 
-![image](https://github.com/user-attachments/assets/c4eb0817-a135-49aa-a56e-964150cb165d)
+```txt
+your_name="taobao.com"
+```
 
 变量名的命名须遵循如下规则：
 
@@ -1333,23 +1625,41 @@ EOF 也可以使用其他符号:
 ## 使用变量
 在变量名前面加美元符号即可，如：
 
-![image](https://github.com/user-attachments/assets/293c9aeb-5e50-4a90-835b-14105ae04a46)
+```txt
+your_name="qinjx"
+echo $your_name
+echo ${your_name}
+```
 
 加花括号可以帮助解释器识别变量的边界，比如：
 
-![image](https://github.com/user-attachments/assets/8783cfdc-5e75-4867-bc6d-4bad6d9d8532)
+```txt
+for skill in Ada Coffe Action Java; do
+    echo "I am good at ${skill}Script"
+done
+```
 
 ## 只读变量
 使用 readonly 命令可以将变量定义为只读变量，只读变量的值不能被改变。
 
 下面的例子尝试更改只读变量，结果报错：
 
-![image](https://github.com/user-attachments/assets/cc92e864-aa65-4bfa-bb9c-932cad87a41c)
+```txt
+python@ubuntu:~/shell$ myUrl="http://www.google.com"
+python@ubuntu:~/shell$ readonly myUrl
+python@ubuntu:~/shell$ myUrl="http://www.baidu.com"
+-bash: myUrl: 只读变量
+```
 
 ## 删除变量
 使用 unset 命令可以删除变量，但不能删除只读变量：
 
-![image](https://github.com/user-attachments/assets/39c3fa07-fe7d-4dc2-ac01-37754a73c090)
+```txt
+#!/bin/sh
+myUrl="http://www.baidu.com"
+unset myUrl
+echo $myUrl
+```
 
 ## 变量类型
 运行shell时，会同时存在三种变量：
@@ -1361,7 +1671,13 @@ EOF 也可以使用其他符号:
 ## Shell 函数
 shell中函数的定义格式如下：
 
-![image](https://github.com/user-attachments/assets/d13ebff5-78b7-405d-b30a-3b7275cbda2f)
+```txt
+[ function ] funname [()]
+{
+    action;
+    [return int;]
+}
+```
 
 说明：
 
@@ -1370,11 +1686,33 @@ shell中函数的定义格式如下：
 
 示例：
 
-![image](https://github.com/user-attachments/assets/0796edb0-e332-49a9-a8a6-1469217ad5b2)
+```txt
+#!/bin/bash
+
+funWithReturn(){
+    echo "这个函数会对输入的两个数字进行相加运算..."
+    echo "输入第一个数字: "
+    read aNum
+    echo "输入第二个数字: "
+    read anotherNum
+    echo "两个数字分别为 $aNum 和 $anotherNum !"
+    return $(($aNum+$anotherNum))
+}
+funWithReturn
+echo "输入的两个数字之和为 $? !"
+```
 
 输出，类似下面：
 
-![image](https://github.com/user-attachments/assets/f21221b8-cdb1-48c3-8070-c5c2dc57df09)
+```txt
+这个函数会对输入的两个数字进行相加运算...
+输入第一个数字: 
+1
+输入第二个数字: 
+2
+两个数字分别为 1 和 2 !
+输入的两个数字之和为 3 !
+```
 
 函数返回值在调用该函数后通过 $? 来获得。
 
@@ -1384,22 +1722,48 @@ shell中函数的定义格式如下：
 
 带参数的函数示例：
 
-![image](https://github.com/user-attachments/assets/2cb6e508-4645-4797-adcf-31cc7b05d9a8)
+```txt
+#!/bin/bash
+
+funWithParam(){
+    echo "第一个参数为 $1 !"
+    echo "第二个参数为 $2 !"
+    echo "第十个参数为 $10 !"
+    echo "第十个参数为 ${10} !"
+    echo "第十一个参数为 ${11} !"
+    echo "参数总数有 $# 个!"
+    echo "作为一个字符串输出所有参数 $* !"
+}
+funWithParam 1 2 3 4 5 6 7 8 9 34 73
+```
 
 输出结果：
 
-![image](https://github.com/user-attachments/assets/5d76f721-b3f1-4adc-a2cf-78b279ea3567)
+```txt
+第一个参数为 1 !
+第二个参数为 2 !
+第十个参数为 10 !
+第十个参数为 34 !
+第十一个参数为 73 !
+参数总数有 11 个!
+作为一个字符串输出所有参数 1 2 3 4 5 6 7 8 9 34 73 !
+```
 
 当n>=10时，需要使用${n}来获取参数。
 
 另外，还有几个特殊字符用来处理参数：
 
-![image](https://github.com/user-attachments/assets/98d7cccf-f008-4ca4-9c58-799474999365)
+![image](https://github.com/user-attachments/assets/9f32a7fe-7706-4525-a113-945cf9c00602)
+
 
 ## 文件包含
 Shell 文件包含的语法格式如下：
 
-![image](https://github.com/user-attachments/assets/92a41c03-8638-40c1-ab07-26c4062ea7b3)
+```txt
+. filename   # 注意点号(.)和文件名中间有一空格
+或
+source filename
+```
 
 **实例**
 
@@ -1407,17 +1771,34 @@ Shell 文件包含的语法格式如下：
 
 test1.sh 代码如下：
 
-![image](https://github.com/user-attachments/assets/1bd12f23-be4c-4e4e-b190-1ac307235ae0)
+```txt
+#!/bin/bash
+
+url="http://www.baidu.com"
+```
 
 test2.sh 代码如下：
 
-![image](https://github.com/user-attachments/assets/e6fde70b-544f-4744-83a4-3677a81d2f32)
+```txt
+#!/bin/bash
+
+#使用 . 号来引用test1.sh 文件
+. ./test1.sh
+# 或者使用以下包含文件代码
+# source ./test1.sh
+
+echo "url地址：$url"
+```
 
 接下来，我们为 test2.sh 添加可执行权限并执行：
 
-![image](https://github.com/user-attachments/assets/193baee4-cbf8-46d9-a0e2-3571426db2a1)
+```txt
+$ chmod +x test2.sh 
+$ ./test2.sh 
+url地址：http://www.baidu.com
+```
 
-![image](https://github.com/user-attachments/assets/9bd8d758-f3ee-4155-98d3-e609d34eb14b)
+![image](https://github.com/user-attachments/assets/e83b1663-fdd6-4c30-8e98-159c869a7867)
 
 # shell数据类型
 ## 字符串
@@ -1425,7 +1806,9 @@ test2.sh 代码如下：
 
 单引号：
 
-![image](https://github.com/user-attachments/assets/f1f4b93f-68c3-411f-9f92-e8c8fe27d09e)
+```txt
+str='this is a string'
+```
 
 单引号字符串的限制：
 
@@ -1434,11 +1817,17 @@ test2.sh 代码如下：
 
 双引号：
 
-![image](https://github.com/user-attachments/assets/6db1a0c0-f0bd-45c0-bd7d-d7bab8f9fb1c)
+```txt
+your_name='taobao'
+str="Hello, I know you are \"$your_name\"! \n"
+echo -e $str
+```
 
 输出结果为：
 
-![image](https://github.com/user-attachments/assets/89877d36-3417-4f9c-af7b-cc42ae431686)
+```txt
+Hello, I know you are "taobao"! 
+```
 
 双引号的优点：
 
@@ -1447,27 +1836,49 @@ test2.sh 代码如下：
 
 拼接字符串：
 
-![image](https://github.com/user-attachments/assets/31e265a0-5abb-43a7-9907-1433678c656d)
+```txt
+your_name="taobao"
+# 使用双引号拼接
+greeting="hello, "$your_name" !"
+greeting_1="hello, ${your_name} !"
+echo $greeting  $greeting_1
+# 使用单引号拼接
+greeting_2='hello, '$your_name' !'
+greeting_3='hello, ${your_name} !'
+echo $greeting_2  $greeting_3
+```
 
 输出结果为：
 
-![image](https://github.com/user-attachments/assets/449e7d62-815c-4d8d-bee6-92c1f6848a60)
+```txt
+hello, taobao ! hello, taobao !
+hello, taobao ! hello, ${your_name} !
+```
 
 **获取字符串长度${#s}**
 
-![image](https://github.com/user-attachments/assets/c28c23e3-0b2e-45cc-aa4e-e01be4cf7c65)
+```txt
+string="abcd"
+echo ${#string} #输出 4
+```
 
 **截取字符串${s:n1:n2}**
 
 以下实例从字符串第 2 个字符开始截取 4 个字符：
 
-![image](https://github.com/user-attachments/assets/8554be06-278e-4bb2-8a5c-0dc83f6c4e4d)
+```txt
+string="taobao is a great site"
+echo ${string:1:4} # 输出 unoo
+```
 
 **查找字符出现的位置expr index**
 
 查找字符 i 或 o 的位置(哪个字母先出现就计算哪个)：
 
-![image](https://github.com/user-attachments/assets/6dd9bc48-9dd4-4d85-a1a0-8af85b19244d)
+```txt
+string="taobao is a great site"
+echo `expr index "$string" io`  # 输出 3
+```
 
 **注意：** 以上脚本中 ` 是反引号，而不是单引号 '。
 
@@ -1479,55 +1890,134 @@ bash支持一维数组（不支持多维数组），并且没有限定数组的�
 ### 定义数组
 在 Shell 中，用括号来表示数组，数组元素用"空格"符号分割开。定义数组的一般形式为：
 
-![image](https://github.com/user-attachments/assets/e4b22e4e-6dc5-4d12-b0e0-f544f6587d78)
+```txt
+array_name=(value0 value1 value2 value3)
+```
 
 或者
 
-![image](https://github.com/user-attachments/assets/1f149b14-bc4f-4b7a-8990-a13394e683f2)
+```txt
+array_name=(
+value0
+value1
+value2
+value3
+)
+```
 
 或单独定义数组的各个分量：
 
-![image](https://github.com/user-attachments/assets/668c453d-0dff-419c-93f7-beedc952d985)
+```txt
+array_name[0]=value0
+array_name[1]=value1
+array_name[n]=valuen
+```
 
 可以不使用连续的下标，而且下标的范围没有限制。
 
 ### 读取数组
 读取数组元素值的一般格式是：
 
-![image](https://github.com/user-attachments/assets/f2ce8ba0-4c8e-4bc8-9b7c-3d1832b46b0c)
+```txt
+#!/bin/bash
+
+my_array=(A B "C" D)
+
+echo "第一个元素为: ${my_array[0]}"
+echo "第二个元素为: ${my_array[1]}"
+echo "第三个元素为: ${my_array[2]}"
+echo "第四个元素为: ${my_array[3]}"
+```
 
 例子：
 
-![image](https://github.com/user-attachments/assets/9910b9a9-82b2-4ac0-9e1d-ce12973a2a5d)
+```txt
+#!/bin/bash
+
+my_array=(A B "C" D)
+
+echo "第一个元素为: ${my_array[0]}"
+echo "第二个元素为: ${my_array[1]}"
+echo "第三个元素为: ${my_array[2]}"
+echo "第四个元素为: ${my_array[3]}"
+```
 
 执行脚本，输出结果如下所示：
 
-![image](https://github.com/user-attachments/assets/f4d2e835-b669-40dd-a15e-f3fdf7867f2d)
+```txt
+$ chmod +x test.sh 
+$ ./test.sh
+第一个元素为: A
+第二个元素为: B
+第三个元素为: C
+第四个元素为: D
+```
 
 使用 @或* 符号可以获取数组中的所有元素，例如：
 
-![image](https://github.com/user-attachments/assets/53a0ac2c-6046-4475-90a0-2f9eeef99416)
+```txt
+echo ${array_name[@]}
+```
 
 例子：
 
-![image](https://github.com/user-attachments/assets/3d54b15e-ef77-4f23-9c1e-eafbc8e90961)
+```txt
+#!/bin/bash
+
+my_array[0]=A
+my_array[1]=B
+my_array[2]=C
+my_array[3]=D
+
+echo "数组的元素为: ${my_array[*]}"
+echo "数组的元素为: ${my_array[@]}"
+```
 
 执行脚本，输出结果如下所示：
 
-![image](https://github.com/user-attachments/assets/16497979-5a55-4a2c-905d-9d0f1fec7e2f)
+```txt
+$ chmod +x test.sh 
+$ ./test.sh
+数组的元素为: A B C D
+数组的元素为: A B C D
+```
+
 
 ### 获取数组的长度
 获取数组长度的方法与获取字符串长度的方法相同，例如：
 
-![image](https://github.com/user-attachments/assets/f8e3f30f-4d44-4b91-80ea-43b0046ca945)
+```txt
+# 取得数组元素的个数
+length=${#array_name[@]}
+# 或者
+length=${#array_name[*]}
+# 取得数组单个元素的长度
+lengthn=${#array_name[n]}
+```
+
 
 例子：
 
-![image](https://github.com/user-attachments/assets/ae327bd4-eed0-46fa-9eab-fb9dea04ea1d)
+```txt
+#!/bin/bash
+
+my_array[0]=A
+my_array[1]=B
+my_array[2]=C
+my_array[3]=D
+
+echo "数组元素个数为: ${#my_array[*]}"
+echo "数组元素个数为: ${#my_array[@]}"
+```
 
 执行脚本，输出结果如下所示：
 
-![image](https://github.com/user-attachments/assets/3bfa3578-50e2-443e-97b4-43cf7d495807)
+```txt
+$ chmod +x test.sh 
+$ ./test.sh
+数组元素个数为: 4
+数组元素个数为: 4
+```
 
 ## Shell传递参数
 执行 Shell 脚本时，向脚本传递参数，脚本内获取参数的格式为：**$n。**
@@ -1538,28 +2028,99 @@ bash支持一维数组（不支持多维数组），并且没有限定数组的�
 
 test.sh文件内容如下：
 
-![image](https://github.com/user-attachments/assets/4d4d8319-ee98-445a-acf0-202f72d759a7)
+```txt
+vi test.sh
+#!/bin/bash
+
+echo "Shell 传递参数实例！";
+echo "执行的文件名：$0";
+echo "第一个参数为：$1";
+echo "第二个参数为：$2";
+echo "第三个参数为：$3";
+```
 
 运行结果：
 
-![image](https://github.com/user-attachments/assets/bde1a000-1208-41e0-bfe0-cf34214ea7d1)
+```txt
+python@ubuntu:~/test$ sh test.sh 1 2 3
+Shell 传递参数实例！
+执行的文件名：test.sh
+第一个参数为：1
+第二个参数为：2
+第三个参数为：3
+```
 
 参数获取：
 
-![image](https://github.com/user-attachments/assets/77bc73c8-0671-4a51-8cab-fe2c16c0d19a)
+![image](https://github.com/user-attachments/assets/8da21610-129e-4329-8eb6-b862c15c1be4)
 
-![image](https://github.com/user-attachments/assets/683f1a5b-89f5-48d6-99bc-7bc2a9d4e4b8)
+```txt
+#!/bin/bash
+
+echo "参数个数为：$#";
+echo "$*传递的参数作为一个字符串显示：$*";
+echo "$@传递的参数作为一个字符串显示：$@";
+echo "脚本运行的当前进程ID号：$$";
+echo "后台运行的最后一个进程的ID号：$!";
+echo "$?"
+```
 
 执行脚本，输出结果如下所示：
 
-![image](https://github.com/user-attachments/assets/74595ac7-20ff-40dc-9f9b-256b731c067a)
+```txt
+python@ubuntu:~/test$ ./test.sh 1 2 3
+参数个数为：3
+1 2 3传递的参数作为一个字符串显示：1 2 3
+1 2 3传递的参数作为一个字符串显示：1 2 3
+脚本运行的当前进程ID号：5059
+后台运行的最后一个进程的ID号：
+0
+```
 
 $*与$@的区别：
 
 - 只有在双引号中体现出来。假设在脚本运行时写了三个参数 1、2、3，，则$* 等价于 “1 2 3”（传递了一个参数），而$@等价于 “1” “2” “3”（传递了三个参数）。
 
-![image](https://github.com/user-attachments/assets/8f7ba0ef-4de4-449f-8cb5-8f906c787e5f)
+```txt
+#!/bin/bash
+
+echo "-- \"\$*\" 演示 ---"
+for i in "$*"; do
+    echo $i
+done
+
+echo "-- \"\$@\" 演示 ---"
+for i in "$@"; do
+    echo $i
+done
+
+echo "-- \$* 演示 ---"
+for i in $*; do
+    echo $i
+done
+
+echo "-- \$@ 演示 ---"
+for i in $@; do
+    echo $i
+done
+```
 
 执行脚本，输出结果如下所示：
 
-![image](https://github.com/user-attachments/assets/cc4fad12-eda8-402d-ab36-93e85730b9f5)
+```txt
+python@ubuntu:~/test$ sh test 1 2 3
+-- "$*" 演示 ---
+1 2 3
+-- "$@" 演示 ---
+1
+2
+3
+-- $* 演示 ---
+1
+2
+3
+-- $@ 演示 ---
+1
+2
+3
+```
