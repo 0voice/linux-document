@@ -6,7 +6,10 @@
 <h2 id="nav_7">🌅 linux入门资料</h2>
 
 
-##### [决战Linux到精通.md](https://github.com/0voice/linux-document/blob/main/%E5%86%B3%E6%88%98Linux%E5%88%B0%E7%B2%BE%E9%80%9A.md)
+##### [决战Linux到精通1.md](https://github.com/0voice/linux-document/blob/main/%E5%86%B3%E6%88%98Linux%E5%88%B0%E7%B2%BE%E9%80%9A1.md)
+##### [决战Linux到精通2.md](https://github.com/0voice/linux-document/blob/main/%E5%86%B3%E6%88%98Linux%E5%88%B0%E7%B2%BE%E9%80%9A2.md)
+##### [决战Linux到精通3.md](https://github.com/0voice/linux-document/blob/main/%E5%86%B3%E6%88%98Linux%E5%88%B0%E7%B2%BE%E9%80%9A3.md)
+##### [决战Linux到精通4.md](https://github.com/0voice/linux-document/blob/main/%E5%86%B3%E6%88%98Linux%E5%88%B0%E7%B2%BE%E9%80%9A4.md)
 ##### [Linux入门基础知识点汇总.md](https://github.com/0voice/linux-document/blob/main/Linux%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9%E6%B1%87%E6%80%BB.md)
 ##### [Linux 基础知识点总结.md](https://github.com/0voice/linux-document/blob/main/Linux%20%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93.md)
 ##### []()
