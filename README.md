@@ -53,8 +53,8 @@
 ##### [Linux01：概述及环境搭建.md](https://github.com/0voice/linux-document/blob/main/Linux01%EF%BC%9A%E6%A6%82%E8%BF%B0%E5%8F%8A%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md)
 ##### [Linux04：三种软件安装方式及服务器基本环境搭建.md](https://github.com/0voice/linux-document/blob/main/Linux04%EF%BC%9A%E4%B8%89%E7%A7%8D%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E6%96%B9%E5%BC%8F%E5%8F%8A%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%9F%BA%E6%9C%AC%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md)
 ##### [Linux 服务器环境搭建及配置.md](https://github.com/0voice/linux-document/blob/main/Linux%20%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%8F%8A%E9%85%8D%E7%BD%AE.md)
-##### []()
-##### []()
+##### [Linux系统安装详细教程.md](https://github.com/0voice/linux-document/blob/main/Linux%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B.md)
+##### [Linux环境都没有，怎么学编程？.md](https://github.com/0voice/linux-document/blob/main/Linux%E7%8E%AF%E5%A2%83%E9%83%BD%E6%B2%A1%E6%9C%89%EF%BC%8C%E6%80%8E%E4%B9%88%E5%AD%A6%E7%BC%96%E7%A8%8B%EF%BC%9F.md)
 ##### []()
 ##### []()
 ##### [How To Build Lightweight Docker Images With Mmdebstrap In Linux.md](https://github.com/0voice/linux-document/blob/main/How%20To%20Build%20Lightweight%20Docker%20Images%20With%20Mmdebstrap%20In%20Linux.md)
@@ -124,7 +124,7 @@
 <h2 id="nav_7">🌅 内核项目</h2>
 
 ##### [10个基于Linux内核开源项目.md](https://github.com/0voice/linux-document/blob/main/10%E4%B8%AA%E5%9F%BA%E4%BA%8ELinux%E5%86%85%E6%A0%B8%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE.md)
-##### []()
+##### [推荐开源项目：Linux Kernel - 强大的操作系统内核.md](https://github.com/0voice/linux-document/blob/main/%E6%8E%A8%E8%8D%90%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%EF%BC%9ALinux%20Kernel%20-%20%E5%BC%BA%E5%A4%A7%E7%9A%84%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%86%85%E6%A0%B8.md)
 ##### []()
 ##### []()
 ##### []()
